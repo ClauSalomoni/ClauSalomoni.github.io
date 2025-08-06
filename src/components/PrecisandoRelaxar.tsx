@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
 import { surpresas } from "../data/surpresas";
 import { useRef } from "react";
+interface PrecisandoRelaxarProps {
+  onClose: () => void;
+}
 
-export default function PrecisandoRelaxar({ onClose }) {
+export default function PrecisandoRelaxar({ onClose }: PrecisandoRelaxarProps) {
   const [etapa, setEtapa] = useState<"inicio" | "video" | "frase" | "musica">("inicio");
   const [mostrar, setMostrar] = useState(false);
   const [contador, setContador] = useState(7);

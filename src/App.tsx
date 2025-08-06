@@ -4,8 +4,7 @@ import Hero from './components/Hero'
 import Projetos from './components/Projetos'
 import Footer from './components/Footer'
 import FadeText from "./components/FadeText";
-import minhaFoto from "./assets/eu2.png";
-import outraFoto from "./assets/eu.png";
+
 import Sobre from './components/Sobre';
 import PrecisandoRelaxar from "./components/PrecisandoRelaxar";
 import Evolucao from "./components/Evolucao";

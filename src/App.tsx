@@ -10,12 +10,17 @@ import PrecisandoRelaxar from "./components/PrecisandoRelaxar";
 import Evolucao from "./components/Evolucao";
 import BtnScrollTop from "./components/BtnScrollTop";
 import { useState } from "react";
-//criei a pages, vou adicionar arquivo e aqui devo importar(la tenho que export)
-//lembrar de mudar o caminho href do header do meu nome)
+import { useEffect } from 'react';
+
 export default function App() {
   const [mostrarSurpresa, setMostrarSurpresa] = useState(false);
+ 
+  useEffect(() => {
+    document.documentElement.classList.add('dark');
+  }, []);
+  
   return (
-    <div className="relative min-h-screen bg-white text-gray-900 dark:bg-gray-950 dark:text-white overflow-hidden">
+    <div className="relative min-h-screen bg-gray-950 dark:text-white overflow-hidden">
           
       <Header />
       

@@ -5,6 +5,12 @@
 html {
   scroll-behavior: smooth;
 }
+@layer base {
+  body {
+    @apply bg-secondary;
+  }
+}
+
 @layer components {
   .nav-link {
     @apply hover:underline px-1 py-0.5 text-sm md:text-base text-gray-800 dark:text-gray-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 rounded;

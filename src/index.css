@@ -6,8 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 @layer base {
+  html, body, #root {
+    height: 100%;
+  }
+
   body {
-    @apply bg-secondary;
+    @apply bg-gray-950 text-white font-poppins;
   }
 }
 
@@ -20,9 +24,7 @@ html {
     @apply rounded-2xl border border-gray-200 dark:border-gray-700 p-6 bg-white dark:bg-gray-800 shadow hover:shadow-md transition;
   }
 }
-body {
-  @apply font-poppins;
-}
+
 @layer utilities {
   .font-poppins {
     font-family: 'Poppins', sans-serif;

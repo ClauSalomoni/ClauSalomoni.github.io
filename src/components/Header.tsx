@@ -8,7 +8,7 @@ export default function Header() {
     <header className="bg-white/80 backdrop-blur-md dark:bg-gray-900/80 shadow-sm sticky top-0 z-50">
       <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3" aria-label="Menu principal">
         <a href="#" className="text-xl font-bold text-indigo-600 dark:text-indigo-400">Claudia Salomoni</a>
-        <ul className="flex gap-6 text-sm md:text-base">
+        <ul className="flex gap-4 text-xs sm:gap-6 sm:text-sm md:text-base">
           <li>
             <LinkNav href="#sobre"> 
               Sobre

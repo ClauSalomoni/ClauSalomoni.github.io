@@ -22,16 +22,22 @@ const projetos: Projeto[] = [
     textoLink: "Ver Perfil →"
   },
   {
-    titulo: "Site/blog em WordPress",
-    descricao: "Criei um blog pessoal para explorar e aprender o uso da plataforma. O servidor é simples e afeta muito o desempenho, porém o projeto foi essencial para entender a estrutura do WordPress.",
-    link: "https://transformaçãoti.com.br",
-    textoLink: "Acessar Site/Blog →"
-  },
-  {
     titulo: "Colaboração em comunidade",
     descricao: "Contribuindo com melhorias visuais e ajustes de responsividade, substituindo imagens de IA por fotos reais. Minha primeira experiência prática em colaboração com uma comunidade de tecnologia",
     link: "https://github.com/pyladies-floripa/site-pyladies-floripa",
     textoLink: "Repositório PyLadies Floripa →"
+  },
+  {
+    titulo: "Dashboard Interativo",
+    descricao: "Desenvolvido na imersão de dados da Alura, este aplicativo web apresenta gráficos dinâmicos e filtros interativos, facilitando a análise e visualização de dados de forma acessível e intuitiva.",
+    link: "https://salarydash.streamlit.app/",
+    textoLink: 'Veja os "Dados Rolando" →'
+  },
+  {
+    titulo: "Site/blog em WordPress",
+    descricao: "Criei um blog pessoal para explorar e aprender o uso da plataforma. O servidor é simples e afeta muito o desempenho, porém o projeto foi essencial para entender a estrutura do WordPress.",
+    link: "https://transformaçãoti.com.br",
+    textoLink: "Acessar Site/Blog →"
   },
   // Adicione mais projetos conforme quiser
 ]

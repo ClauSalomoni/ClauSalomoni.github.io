@@ -1,14 +1,14 @@
 import './index.css'
+import BtnScrollTop from "./components/BtnScrollTop";
+import Evolucao from "./components/Evolucao";
+import FadeText from "./components/FadeText";
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
-import Projetos from './components/Projetos'
-import Footer from './components/Footer'
-import FadeText from "./components/FadeText";
-
-import Sobre from './components/Sobre';
 import PrecisandoRelaxar from "./components/PrecisandoRelaxar";
-import Evolucao from "./components/Evolucao";
-import BtnScrollTop from "./components/BtnScrollTop";
+import Projetos from './components/Projetos'
+import Sobre from './components/Sobre';
+
 import { useState } from "react";
 import { useEffect } from 'react';
 

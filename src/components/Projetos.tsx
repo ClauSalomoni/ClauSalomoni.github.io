@@ -10,6 +10,30 @@ interface Projeto {
 
 const projetos: Projeto[] = [
   {
+    titulo: "Relatório de Marketing PBI",
+    descricao: " Relatório de Marketing desenvolvido para uma empresa fictícia, utilizando o Power BI para transformar dados brutos em insights de Marketing. O foco está na criação de KPIs de performance e no storytelling de dados para suportar a tomada de decisão.",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiN2YzZmUxZjgtYzUxMi00ZGY5LThjNWMtZmRjYjYzYTBkNTA0IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+    textoLink: "Ver Dashboard ao vivo →"
+  },
+  {
+    titulo: "Dashboard de Performance Logistica PBI",
+    descricao: "Dashboard com uma visão geral de alguns KPIs de logistica, permitindo monitoramento por transportatora.",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiYTI3MWI0MDYtZmVjZS00NjI2LWI2YjAtNGYyOGFiNDg2Yzc2IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+    textoLink: "Monitore os dados →"
+  },
+  {
+    titulo: "Performance de Vendas PBI",
+    descricao: "Dashboard multipaginas, desenvolvido para a área Comercial. Apresenta uma análise detalhada das vendas de lojas fictícias.",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiODBiOGExZWItMTYwYS00NzgzLWIyOTItZjAwZWY5OGY0MzEwIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+    textoLink: "Explore Dashboard →"
+  },
+  {
+    titulo: "Análise de Vendas Global PBI",
+    descricao: "Relatório de pagina única mostrando de forma resumida as vendas de Empresas fictícias pelo mundo, com alguns KPIs e gráficos.",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiMGI1MTRhY2EtYTkzMy00YTQ0LWI1NmMtNjNmYjEwMzBjM2E4IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+    textoLink: "Análise resumida de Vendas →"
+  },
+  {
     titulo: "Jogo da Bomba",
     descricao: "Um jogo interativo para testar raciocínio e lógica, desenvolvido com JavaScript, HTML, CSS e Flask, hospedado no Render.",
     link: "https://desarme-bomba-flask.onrender.com",

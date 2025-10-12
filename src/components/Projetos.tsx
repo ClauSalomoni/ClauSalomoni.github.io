@@ -12,7 +12,7 @@ const projetos: Projeto[] = [
   {
     titulo: "Relatório de Marketing PBI",
     descricao: " Relatório de Marketing desenvolvido para uma empresa fictícia, utilizando o Power BI para transformar dados brutos em insights de Marketing. O foco está na criação de KPIs de performance e no storytelling de dados para suportar a tomada de decisão.",
-    link: "https://app.powerbi.com/view?r=eyJrIjoiN2YzZmUxZjgtYzUxMi00ZGY5LThjNWMtZmRjYjYzYTBkNTA0IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9&page=0",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiMTNlZGU5MDgtOTU2ZS00ZGU4LWFmMjYtNDM3YzFkNWM3MGZiIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
     textoLink: "Ver Dashboard ao vivo →"
   },
   {
@@ -24,7 +24,7 @@ const projetos: Projeto[] = [
   {
     titulo: "Performance de Vendas PBI",
     descricao: "Dashboard multipaginas, desenvolvido para a área Comercial. Apresenta uma análise detalhada das vendas de lojas fictícias.",
-    link: "https://app.powerbi.com/view?r=eyJrIjoiODBiOGExZWItMTYwYS00NzgzLWIyOTItZjAwZWY5OGY0MzEwIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9&page=0",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiYTkyZGFkZjYtNWYyMC00OWNkLThhN2MtZTBiNTA5ZmRmOGUwIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
     textoLink: "Explore Dashboard →"
   },
   {

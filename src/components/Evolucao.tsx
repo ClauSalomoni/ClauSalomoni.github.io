@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import FadeParagraph from "./FadeParagraph";
+import { Linkedin, MessageCircle } from "lucide-react";
 
 // Interface para os itens técnicos
 interface TechnicalItem {
@@ -18,6 +19,12 @@ export default function Evolucao() {
   
   // Pega a lista de habilidades técnicas
   const technicalItems = t('evolucao.technical.items', { returnObjects: true }) as TechnicalItem[];
+
+    // 👇 DEBUG: Veja o que está vindo
+  console.log('technicalItems:', technicalItems);
+  console.log('É array?', Array.isArray(technicalItems));
+
+  
   
   // Pega a lista de habilidades comportamentais
   const comportamentalItems = t('evolucao.comportamentais.items', { returnObjects: true }) as ComportamentalItem[];
@@ -58,17 +65,35 @@ export default function Evolucao() {
       </div>
 
       <div className="mt-12 text-center">
-        <p className="text-lg font-medium mb-4">
+        <p className="text-lg font-medium mb-6">
           {t('evolucao.chamada')}
         </p>
-        <a
+        
+        {/* Container flex para os botões */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          
+          {/* Botão WhatsApp */}
+          {/* Botão LinkedIn */}
+          <a
+            href="https://www.linkedin.com/in/clau-salomoni/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition-all text-lg font-semibold shadow-md w-full sm:w-auto justify-center"
+          >
+            <Linkedin size={20} />
+             {t('evolucao.botao_linkedin')}
+          </a>
+          <a
             href="https://wa.me/5548991030916?text=Olá%20Claudia%2C%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-xl transition-all text-lg font-semibold shadow-md"
-        >
+            className="inline-flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-xl transition-all text-lg font-semibold shadow-md w-full sm:w-auto justify-center"
+          >
+            <MessageCircle size={20} />
             {t('evolucao.botao_whatsapp')}
-        </a>
+          </a>
+
+        </div>
       </div>
     </section>
   );

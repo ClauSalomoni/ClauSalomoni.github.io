@@ -128,8 +128,9 @@
         }
       ]
     },
-    "chamada": "If you'd like to learn more or have an opportunity that matches my profile::",
-    "botao_whatsapp": "Contact me on WhatsApp"
+    "chamada": "If you'd like to learn more or have an opportunity that matches my profile:",
+    "botao_whatsapp": "WhatsApp",
+    "botao_linkedin": "LinkedIn"
   },
   "surpresas": {
     "frase1": "You are stronger than you think and more amazing than you believe.",
@@ -148,7 +149,7 @@
     "aria_label": "Back to top"
   },
   "footer": {
-    "direitos": "All rights reserved."
+    "direitos": "Let's make the world a better place. 💖"
   },
   "precisandoRelaxar": {
     "fechar": "Close",

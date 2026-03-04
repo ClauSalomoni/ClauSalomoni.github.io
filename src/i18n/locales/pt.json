@@ -98,11 +98,11 @@
           "skills": "Python, Flask, JavaScript, Fastify."
         },
         {
-          "category": "Data & Analytics:",
+          "category": "Análise de Dados:",
           "skills": "SQL, Power BI."
         },
         {
-          "category": "Tools & Platforms:",
+          "category": "Ferramentas e Plataformas:",
           "skills": "Git, GitHub, npm, Render, PostgreSQL, Supabase."
         }
       ]
@@ -129,7 +129,8 @@
       ]
     },
     "chamada": "Se quiser saber mais ou tiver uma vaga que combine comigo:",
-    "botao_whatsapp": "Fale comigo no WhatsApp"
+    "botao_whatsapp": "WhatsApp",
+    "botao_linkedin": "LinkedIn"
   },
   "surpresas": {
     "frase1": "Você é mais forte do que imagina e mais incrível do que acredita.",
@@ -148,7 +149,7 @@
     "aria_label": "Voltar ao topo"
   },
   "footer": {
-    "direitos": "Todos os direitos reservados."
+    "direitos": "Vamos fazer deste um mundo melhor. 💖"
   },
   "precisandoRelaxar": {
     "fechar": "Fechar",

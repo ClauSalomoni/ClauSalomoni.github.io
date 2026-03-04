@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Mail, Linkedin, MessageCircle } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 import LinkNav from "./LinkNav";
@@ -8,19 +8,44 @@ import LanguageSwitcher from "./LanguageSwitcher";
 export default function Header() {
   const { t, i18n } = useTranslation();
   const [mostrarContato, setMostrarContato] = useState(false);
-  const isPortuguese = i18n.language.startsWith("pt");
+  const [idiomaCarregado, setIdiomaCarregado] = useState(false);
+    useEffect(() => {
+    if (i18n.language) {
+      setIdiomaCarregado(true);
+    }
+  }, [i18n.language]);
 
+  // ✅ DEFINIR isPortuguese ANTES de usar
+  const isPortuguese = idiomaCarregado 
+    ? i18n.language.startsWith("pt")
+    : true; // padrão enquanto carrega
+
+  // ✅ DEFINIR cvLink ANTES do return
   const cvLink = isPortuguese
     ? "/Claudia_Salomoni_CV_PT.pdf"
     : "/Claudia_Salomoni_Resume_EN.pdf";
 
 
+
   return (
     <header className="bg-white/80 backdrop-blur-md dark:bg-gray-900/80 shadow-sm sticky top-0 z-50">
       <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3" aria-label="Menu principal">
-        <a href="#" className="text-xl font-bold text-indigo-600 dark:text-indigo-400">
-          {t('header.logo')}
-        </a>
+        {/* ✅ Logo e CV lado a lado com espaçamento */}
+        <div className="flex items-center gap-4">
+          <a href="#" className="text-xl font-bold text-indigo-600 dark:text-indigo-400">
+            {t('header.logo')}
+          </a>
+          
+          {/* Botão CV separado do logo */}
+          <a
+            href={cvLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3 py-1.5 text-sm bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors whitespace-nowrap"
+          >
+            {t("header.cv")}
+          </a>
+        </div>
         
         <div className="flex items-center">
           <ul className="flex gap-4 text-xs sm:gap-6 sm:text-sm md:text-base">
@@ -79,14 +104,6 @@ export default function Header() {
               )}
             </li>
           </ul>
-          <a
-            href={cvLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-6 px-3 py-1 rounded-lg text-sm font-medium bg-indigo-600 text-white hover:bg-indigo-700 transition-colors"
-          >
-            {t("header.cv")}
-          </a>
           <LanguageSwitcher />
         </div>
       </nav>

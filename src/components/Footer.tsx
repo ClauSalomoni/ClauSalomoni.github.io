@@ -12,13 +12,13 @@ export default function Footer() {
         </p>
         <div className="flex justify-center space-x-4">
           <a
-            href="mailto:seuemail@gmail.com"
+            href="mailto:claudia404salomoni@gmail.com"
             className="hover:text-indigo-400 transition"
           >
             {t('header.email')}
           </a>
           <a
-            href="https://www.linkedin.com/in/seulinkedin/"
+            href="https://www.linkedin.com/in/clau-salomoni/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-400 transition"

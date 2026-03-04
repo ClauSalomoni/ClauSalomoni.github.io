@@ -1,0 +1,160 @@
+{
+  "header": {
+    "logo": "Claudia Salomoni",
+    "sobre": "About",
+    "cv": "Download Resume",
+    "projetos": "Projects",
+    "contato": "Contact",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  },
+  "hero": {
+    "title": "Turning Ideas into Code",
+    "description": "Your next big idea deserves commitment and dedication. Hi, I'm Claudia, a career-transition developer focused on building solutions through responsibility, data analysis, and storytelling.",
+    "btn_projetos": "Explore my projects",
+    "btn_relaxar": "Need a Break?"
+  },
+  "sobre": {
+    "title": "About me",
+    "paragraph1": "I was born in Rio Grande do Sul and chose Florianópolis as my home when I was accepted into the Federal University of Santa Catarina (UFSC) in 2001, where I earned a degree in Physical Education (Teaching Licensure). I taught in a couple of public schools, where I quickly realized that the educational system did not always allow me to teach in the way I believed was most effective. This led me to combine my teaching background with my English skills, and I spent several years working as an English instructor.",
+    "paragraph2": "As my passion for gastronomy grew, I pursued a technical degree in Culinary School at IFSC. After completing internships in restaurants, I began working independently in the field. Over time, however, I found that working in gastronomy had become physically too demanding.",
+    "paragraph3": "At that point, I decided to transition into a profession that would be more sustainable in the long term. Reflecting on my soft skills and educational background, I researched career paths that aligned with my strengths and professional goals. Through conversations and research, I discovered that many paths were leading toward Information Technology.",
+    "paragraph4": "After deciding to transition into technology, I realized that this journey involves much more than learning how to code. It requires resilience, continuous learning, problem-solving, and navigating real-world challenges — with plenty of debugging along the way. I am currently pursuing a Technical Degree in Systems Development at SENAI.",
+    "paragraph5": "I am committed to continuously improving my skills and applying my knowledge in practical projects while exploring the many possibilities within the technology field. I am proud to say that this website was fully designed and developed by me, as well as the projects that follow. I hope you enjoy exploring my projects, and I look forward to connecting with you.",
+    "paragraph6": "I am seeking opportunities to contribute to meaningful solutions and grow as part of a collaborative team, always with dedication and responsibility."
+  },
+  "projetos": {
+    "titulo_secao": "Projects & Technical Experience",
+    "items": [
+      {
+        "titulo": "Marketing Report PBI",
+        "descricao": "Marketing Report developed for a fictional company, using Power BI to transform raw data into Marketing insights. The focus is on creating performance KPIs and data storytelling to support decision-making.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiMTNlZGU5MDgtOTU2ZS00ZGU4LWFmMjYtNDM3YzFkNWM3MGZiIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "View Live Dashboard →"
+      },
+      {
+        "titulo": "Logistics Performance Dashboard PBI",
+        "descricao": "Dashboard with an overview of some logistics KPIs, allowing monitoring by carrier.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiYTI3MWI0MDYtZmVjZS00NjI2LWI2YjAtNGYyOGFiNDg2Yzc2IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "Monitor data →"
+      },
+      {
+        "titulo": "Sales Performance PBI",
+        "descricao": "Multi-page dashboard developed for the Commercial area. It presents a detailed analysis of sales from fictional stores.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiYTkyZGFkZjYtNWYyMC00OWNkLThhN2MtZTBiNTA5ZmRmOGUwIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "Explore Dashboard →"
+      },
+      {
+        "titulo": "Global Sales Analysis PBI",
+        "descricao": "Single-page report showing a summary of sales from fictional companies around the world, with some KPIs and charts.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiMGI1MTRhY2EtYTkzMy00YTQ0LWI1NmMtNjNmYjEwMzBjM2E4IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "Sales Summary →"
+      },
+      {
+        "titulo": "Bomb Game",
+        "descricao": "An interactive game to test reasoning and logic, developed with JavaScript, HTML, CSS and Flask, hosted on Render.",
+        "link": "https://desarme-bomba-flask.onrender.com",
+        "textoLink": "Play Demo →"
+      },
+      {
+        "titulo": "My Github",
+        "descricao": "Currently, I'm focused on web development with JavaScript, HTML, CSS and exploring back-end with Flask and Node.js.",
+        "link": "https://github.com/ClauSalomoni",
+        "textoLink": "View Profile →"
+      },
+      {
+        "titulo": "Community Collaboration",
+        "descricao": "Contributing with visual improvements and responsiveness adjustments, replacing AI images with real photos. My first hands-on experience collaborating with a tech community.",
+        "link": "https://github.com/pyladies-floripa/site-pyladies-floripa",
+        "textoLink": "PyLadies Floripa Repo →"
+      },
+      {
+        "titulo": "Interactive Dashboard",
+        "descricao": "Developed during Alura's data immersion, this web application features dynamic charts and interactive filters, making data analysis and visualization accessible and intuitive.",
+        "link": "https://salarydash.streamlit.app/",
+        "textoLink": "Explore Data →"
+      },
+      {
+        "titulo": "WordPress Site/Blog",
+        "descricao": "I created a personal blog to explore and learn how to use the platform. The server is simple and greatly affects performance, but the project was essential to understand WordPress structure.",
+        "link": "https://transformaçãoti.com.br",
+        "textoLink": "Access Site/Blog →"
+      }
+    ]
+  },
+  "evolucao": {
+    "frase_destaque": "“I replaced the fear of change with the desire to grow.”",
+    "subtitulo": "My Skills: Code and Experience",
+    "technical": {
+      "title": "Technical Skills:",
+      "items": [
+        {
+          "category": "Frontend:",
+          "skills": "HTML, CSS, JavaScript, React, React Native, Tailwind."
+        },
+        {
+          "category": "Backend:",
+          "skills": "Python, Flask, JavaScript, Fastify."
+        },
+        {
+          "category": "Data & Analytics:",
+          "skills": "SQL, Power BI."
+        },
+        {
+          "category": "Tools & Platforms:",
+          "skills": "Git, GitHub, npm, Render, PostgreSQL, Supabase."
+        }
+      ]
+    },
+    "comportamentais": {
+      "title": "Soft Skills:",
+      "items": [
+        {
+          "category": "Adaptability:",
+          "description": "Living and working in the USA and Italy has prepared me to quickly and effectively adapt to new environments and challenges ."
+        },
+        {
+          "category": "Problem Solving:",
+          "description": "As a Chef, I learned to solve problems under pressure,  maintaining efficiency and strong attention to detail."
+        },
+        {
+          "category": "Communication:",
+          "description": "My experience as an English teacher taught me how to convey complex ideas in a clear and simple way, an essential skill for teamwork."
+        },
+        {
+          "category": "Creativity:",
+          "description": "My background in gastronomy and exposure to different cultures have given me a unique perspective to think outside the box and develop innovative solutions."
+        }
+      ]
+    },
+    "chamada": "If you'd like to learn more or have an opportunity that matches my profile::",
+    "botao_whatsapp": "Contact me on WhatsApp"
+  },
+  "surpresas": {
+    "frase1": "You are stronger than you think and more amazing than you believe.",
+    "frase2": "Take a deep breath. Everything will work out.",
+    "frase3": "You deserve this moment of peace.",
+    "frase4": "The secret of life is not having what you want, but loving what you have.",
+    "frase5": "Kindness is the language that the deaf can hear and the blind can see.",
+    "frase6": "The world needs your light. Don't be afraid to shine.",
+    "frase7": "Be the kind of person your dog thinks you are: happy, brave, and always holding a treat.",
+    "frase8": "Remember: even the heaviest clouds have their dark mode activated.",
+    "frase9": "There's no elevator to success. You have to take the stairs, but you can play an upbeat song while climbing.",
+    "frase10": "Take a deep breath. If it doesn't solve everything, at least it oxygenates the brain.",
+    "frase11": "Nothing like a 404 error in life to remind you that not everything needs to be found right now."
+  },
+  "btn_scroll": {
+    "aria_label": "Back to top"
+  },
+  "footer": {
+    "direitos": "All rights reserved."
+  },
+  "precisandoRelaxar": {
+    "fechar": "Close",
+    "titulo_video": "Press Play. For 15 seconds, the world can wait. 💕",
+    "titulo_frase": "💖 Message for you: closing in:",
+    "titulo_musica": "🎵",
+    "botao_musica": "Listen while browsing"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "header": {
+    "logo": "Claudia Salomoni",
+    "cv": "Baixar CV",
+    "sobre": "Sobre",
+    "projetos": "Projetos",
+    "contato": "Contato",
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "linkedin": "LinkedIn"
+  },
+  "hero": {
+    "title": "Transformando Ideias em código",
+    "description": "Sua próxima grande ideia precisa de alguém com compromisso e dedicação. Olá, sou a Claudia, desenvolvedora em transição, focada em criar soluções com responsabilidade, análise de dados e storytelling.",
+    "btn_projetos": "Veja meus projetos",
+    "btn_relaxar": "Precisando Relaxar?"
+  },
+  "sobre": {
+    "title": "Sobre mim",
+    "paragraph1": "Sou gaúcha e escolhi Florianópolis como residência quando passei no vestibular da UFSC em 2001 para o curso de Educação Física, Licenciatura. Lecionei em algumas escolas públicas onde rapidamente percebi que não seria possível lecionar da forma que acreditava ser o ideal. Passei então a unir os conhecimentos de Licenciatura com os da língua Inglesa e passei alguns anos ministrando aulas de Inglês.",
+    "paragraph2": "Ao perceber que minha paixão pela gastronomia foi crescendo fiz um curso de tecnólogo em gastronomia no IFSC. Fiz alguns estágios em restaurantes e passei a trabalhar como autônoma. Recentemente atuar nesta área tem se tornado fisicamente extenuante.",
+    "paragraph3": "Eis que decidi trocar a gastronomia e a cozinha por uma profissão mais tranquila, fisicamente pelo menos. Pensando em minhas 'soft skills', levando em conta as minhas formações, iniciei uma pesquisa para ver em qual área profissional eu poderia atuar de forma a atender o que busco nesta fase da vida. Seja falando com amigos e conhecidos, seja pesquisando na internet, descobri que todos os caminhos levam à Tecnologia da Informação.",
+    "paragraph4": "Depois de decidir trocar de área e mergulhar no universo da tecnologia percebi que a transição vai muito além de aprender a programar. Ela envolve desafios, dúvidas, conquistas e, claro, muitos debugs na vida real. Atualmente estou cursando Técnico em Desenvolvimento de Sistemas pelo Senai.",
+    "paragraph5": "Procuro evoluir e testar meus conhecimentos na prática enquanto continuo explorando diferentes caminhos deste incrível mundo da tecnologia. É com orgulho que digo que este site foi todo desenvolvido por mim, assim como todos os projetos linkado abaixo. Espero que goste dos projetos que estão aqui e aguardo seu contato.",
+    "paragraph6": "Busco contribuir com soluções reais e crescer em equipe, sempre com dedicação e responsabilidade."
+  },
+  "projetos": {
+    "titulo_secao": "Projetos Desenvolvidos",
+    "items": [
+      {
+        "titulo": "Relatório de Marketing PBI",
+        "descricao": "Relatório de Marketing desenvolvido para uma empresa fictícia, utilizando o Power BI para transformar dados brutos em insights de Marketing. O foco está na criação de KPIs de performance e no storytelling de dados para suportar a tomada de decisão.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiMTNlZGU5MDgtOTU2ZS00ZGU4LWFmMjYtNDM3YzFkNWM3MGZiIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "Ver Dashboard ao vivo →"
+      },
+      {
+        "titulo": "Dashboard de Performance Logistica PBI",
+        "descricao": "Dashboard com uma visão geral de alguns KPIs de logistica, permitindo monitoramento por transportatora.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiYTI3MWI0MDYtZmVjZS00NjI2LWI2YjAtNGYyOGFiNDg2Yzc2IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "Monitore os dados →"
+      },
+      {
+        "titulo": "Performance de Vendas PBI",
+        "descricao": "Dashboard multipaginas, desenvolvido para a área Comercial. Apresenta uma análise detalhada das vendas de lojas fictícias.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiYTkyZGFkZjYtNWYyMC00OWNkLThhN2MtZTBiNTA5ZmRmOGUwIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "Explore Dashboard →"
+      },
+      {
+        "titulo": "Análise de Vendas Global PBI",
+        "descricao": "Relatório de pagina única mostrando de forma resumida as vendas de Empresas fictícias pelo mundo, com alguns KPIs e gráficos.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiMGI1MTRhY2EtYTkzMy00YTQ0LWI1NmMtNjNmYjEwMzBjM2E4IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "Análise resumida de Vendas →"
+      },
+      {
+        "titulo": "Jogo da Bomba",
+        "descricao": "Um jogo interativo para testar raciocínio e lógica, desenvolvido com JavaScript, HTML, CSS e Flask, hospedado no Render.",
+        "link": "https://desarme-bomba-flask.onrender.com",
+        "textoLink": "Jogar Demo →"
+      },
+      {
+        "titulo": "Meu Github",
+        "descricao": "Atualmente, estou focada em desenvolvimento web com JavaScript, HTML, CSS e explorando back-end com Flask e Node.js.",
+        "link": "https://github.com/ClauSalomoni",
+        "textoLink": "Ver Perfil →"
+      },
+      {
+        "titulo": "Colaboração em comunidade",
+        "descricao": "Contribuindo com melhorias visuais e ajustes de responsividade, substituindo imagens de IA por fotos reais. Minha primeira experiência prática em colaboração com uma comunidade de tecnologia",
+        "link": "https://github.com/pyladies-floripa/site-pyladies-floripa",
+        "textoLink": "Repositório PyLadies Floripa →"
+      },
+      {
+        "titulo": "Dashboard Interativo",
+        "descricao": "Desenvolvido na imersão de dados da Alura, este aplicativo web apresenta gráficos dinâmicos e filtros interativos, facilitando a análise e visualização de dados de forma acessível e intuitiva.",
+        "link": "https://salarydash.streamlit.app/",
+        "textoLink": "Veja os \"Dados Rolando\" →"
+      },
+      {
+        "titulo": "Site/blog em WordPress",
+        "descricao": "Criei um blog pessoal para explorar e aprender o uso da plataforma. O servidor é simples e afeta muito o desempenho, porém o projeto foi essencial para entender a estrutura do WordPress.",
+        "link": "https://transformaçãoti.com.br",
+        "textoLink": "Acessar Site/Blog →"
+      }
+    ]
+  },
+  "evolucao": {
+    "frase_destaque": "“Troquei o medo da mudança pela vontade de evoluir.”",
+    "subtitulo": "Minhas Habilidades: O Código e a Experiência",
+    "technical": {
+      "title": "Habilidades Técnicas:",
+      "items": [
+        {
+          "category": "Frontend:",
+          "skills": "HTML, CSS, JavaScript, React, React Native, Tailwind."
+        },
+        {
+          "category": "Backend:",
+          "skills": "Python, Flask, JavaScript, Fastify."
+        },
+        {
+          "category": "Data & Analytics:",
+          "skills": "SQL, Power BI."
+        },
+        {
+          "category": "Tools & Platforms:",
+          "skills": "Git, GitHub, npm, Render, PostgreSQL, Supabase."
+        }
+      ]
+    },
+    "comportamentais": {
+      "title": "Habilidades Comportamentais:",
+      "items": [
+        {
+          "category": "Adaptabilidade:",
+          "description": "Experiência de morar e trabalhar nos EUA e na Itália me preparou para me adaptar a novos ambientes e desafios de forma rápida e eficaz."
+        },
+        {
+          "category": "Resolução de Problemas:",
+          "description": "Como Chef, aprendi a resolver problemas sob pressão, com foco em eficiência e atenção aos detalhes."
+        },
+        {
+          "category": "Comunicação:",
+          "description": "A experiência como professora de inglês me ensinou a transmitir ideias complexas de forma simples e clara, uma habilidade essencial para o trabalho em equipe."
+        },
+        {
+          "category": "Criatividade:",
+          "description": "O curso de gastronomia e a vivência em diferentes culturas me deram uma perspectiva única para pensar fora da caixa e encontrar soluções inovadoras."
+        }
+      ]
+    },
+    "chamada": "Se quiser saber mais ou tiver uma vaga que combine comigo:",
+    "botao_whatsapp": "Fale comigo no WhatsApp"
+  },
+  "surpresas": {
+    "frase1": "Você é mais forte do que imagina e mais incrível do que acredita.",
+    "frase2": "Respire fundo. Tudo vai se resolver.",
+    "frase3": "Você merece este momento de paz.",
+    "frase4": "O segredo da vida não é ter o que se quer, mas amar o que se tem.",
+    "frase5": "A bondade é a linguagem que o surdo ouve e o cego vê.",
+    "frase6": "O mundo precisa da sua luz. Não tenha medo de brilhar.",
+    "frase7": "Seja o tipo de pessoa que seu cachorro pensa que você é: alegre, corajoso e que sempre tem um biscoito na mão.",
+    "frase8": "Lembre-se: até as nuvens mais pesadas têm seu modo escuro ativado.",
+    "frase9": "Não existe elevador para o sucesso. Você tem que usar as escadas, mas pode colocar uma música animada para subir.",
+    "frase10": "Respire fundo. Se não resolver, pelo menos oxigena o cérebro.",
+    "frase11": "Nada como um erro 404 na vida pra lembrar que nem tudo precisa ser encontrado agora."
+  },
+  "btn_scroll": {
+    "aria_label": "Voltar ao topo"
+  },
+  "footer": {
+    "direitos": "Todos os direitos reservados."
+  },
+  "precisandoRelaxar": {
+    "fechar": "Fechar",
+    "titulo_video": "Dê Play. Por 15 segundos o mundo pode esperar. 💕",
+    "titulo_frase": "💖 Mensagem para você: fecha em:",
+    "titulo_musica": "🎵",
+    "botao_musica": "Ouça enquanto navega"
+  }
+}

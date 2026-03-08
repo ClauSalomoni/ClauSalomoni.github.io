@@ -8,9 +8,7 @@ import Hero from './components/Hero'
 import PrecisandoRelaxar from "./components/PrecisandoRelaxar";
 import Projetos from './components/Projetos'
 import Sobre from './components/Sobre';
-
-import { useState } from "react";
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function App() {
   const [mostrarSurpresa, setMostrarSurpresa] = useState(false);
@@ -21,23 +19,20 @@ export default function App() {
   
   return (
     <div className="relative min-h-screen bg-gray-950 dark:text-white overflow-hidden">
-          
       <Header />
       
-      
-      <main className="p-4 md:p-8 max-w-5xl mx-auto">
+      <main className="w-full">
         <Hero onMostrarSurpresa={() => setMostrarSurpresa(true)} />
         {mostrarSurpresa && <PrecisandoRelaxar onClose={() => setMostrarSurpresa(false)} />}
+        
         <FadeText>
-        <Sobre />
-        <Projetos />
+          <Sobre />
+          <Projetos />
         </FadeText>
-       
-        
       </main>
-        <Evolucao />
-        <BtnScrollTop />
-        
+      
+      <Evolucao />
+      <BtnScrollTop />
       <Footer />
     </div>
   )

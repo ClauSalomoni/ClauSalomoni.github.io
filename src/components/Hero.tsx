@@ -1,5 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import FadeText from "./FadeText";
+import Container from './layout/Container';
+import Button from './ui/Button';
+import { TEXT_SIZES } from './ui/Constants';
 import minhaFoto from "../assets/eu2.png";
 import outraFoto from "../assets/eu.png";
 
@@ -11,50 +14,46 @@ export default function Hero({ onMostrarSurpresa }: HeroProps) {
   const { t } = useTranslation();
 
   return (
-    <section className="text-center py-16 md:py-24">
-       <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-8 max-w-5xl mx-auto">
-        {/* IMAGEM COM HOVER */}
-        <div className="relative w-44 h-44 md:w-52 md:h-52 group">
-          <img
-            src={minhaFoto}
-            alt="Foto de Claudia"
-            className="absolute inset-0 w-full h-full rounded-full object-cover transition-opacity duration-500 opacity-100 group-hover:opacity-0 shadow-lg"
-          />
-          <img
-            src={outraFoto}
-            alt="Foto de Claudia sorrindo"
-            className="absolute inset-0 w-full h-full rounded-full object-cover transition-opacity duration-500 opacity-0 group-hover:opacity-100 shadow-lg"
-          />
-        </div>
-
-        {/* TEXTO TRADUZIDO */}
-        <div className="text-center md:text-left">
-          <FadeText>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t('hero.title')}
-            </h2>
-            <p className="text-lg md:text-xl max-w-2xl">
-              {t('hero.description')}
-            </p>
-          </FadeText>
+    <section className="py-12 sm:py-16 md:py-24">
+      <Container>
+        <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-6 sm:gap-8 lg:gap-12">
           
-          <div className="mt-8 flex flex-wrap justify-center md:justify-start gap-4">
-            <a
-              href="#projetos"
-              className="mt-8 inline-block px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-400"
-            >
-              {t('hero.btn_projetos')}
-            </a>
-            <button
-              id="PrecisandoRelaxar"
-              onClick={onMostrarSurpresa}
-              className="mt-8 inline-block px-6 py-3 bg-accent text-white rounded-xl hover:bg-accent/90 focus:outline-none focus:ring-2 focus:ring-accent"
-            >
-              {t('hero.btn_relaxar')}
-            </button>
+          {/* IMAGEM */}
+          <div className="hero-image w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 group">
+            <img
+              src={minhaFoto}
+              alt="Foto de Claudia"
+              className="absolute inset-0 w-full h-full rounded-full object-cover transition-opacity duration-500 opacity-100 group-hover:opacity-0 shadow-lg"
+            />
+            <img
+              src={outraFoto}
+              alt="Foto de Claudia sorrindo"
+              className="absolute inset-0 w-full h-full rounded-full object-cover transition-opacity duration-500 opacity-0 group-hover:opacity-100 shadow-lg"
+            />
+          </div>
+
+          {/* TEXTO */}
+          <div className="text-center md:text-left flex-1">
+            <FadeText as="h1" className={TEXT_SIZES.hero.title + " font-bold mb-3 sm:mb-4"}>
+              {t('hero.title')}
+            </FadeText>
+            
+            <FadeText as="p" className={`${TEXT_SIZES.hero.subtitle} text-gray-600 dark:text-gray-300 max-w-2xl mx-auto md:mx-0`}>
+              {t('hero.description')}
+            </FadeText>
+            
+            {/* BOTÕES */}
+            <div className="mt-6 sm:mt-8 flex flex-row flex-wrap gap-2 sm:gap-4 justify-center md:justify-start">
+              <Button href="#projetos" variant="primary" className="flex-1 sm:flex-none min-w-[120px]">
+                {t('hero.btn_projetos')}
+              </Button>
+              <Button onClick={onMostrarSurpresa} variant="accent" className="flex-1 sm:flex-none min-w-[120px]">
+                {t('hero.btn_relaxar')}
+              </Button>
+            </div>
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

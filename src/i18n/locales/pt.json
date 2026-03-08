@@ -22,7 +22,11 @@
     "paragraph3": "Eis que decidi trocar a gastronomia e a cozinha por uma profissão mais tranquila, fisicamente pelo menos. Pensando em minhas 'soft skills', levando em conta as minhas formações, iniciei uma pesquisa para ver em qual área profissional eu poderia atuar de forma a atender o que busco nesta fase da vida. Seja falando com amigos e conhecidos, seja pesquisando na internet, descobri que todos os caminhos levam à Tecnologia da Informação.",
     "paragraph4": "Depois de decidir trocar de área e mergulhar no universo da tecnologia percebi que a transição vai muito além de aprender a programar. Ela envolve desafios, dúvidas, conquistas e, claro, muitos debugs na vida real. Atualmente estou cursando Técnico em Desenvolvimento de Sistemas pelo Senai.",
     "paragraph5": "Procuro evoluir e testar meus conhecimentos na prática enquanto continuo explorando diferentes caminhos deste incrível mundo da tecnologia. É com orgulho que digo que este site foi todo desenvolvido por mim, assim como todos os projetos linkado abaixo. Espero que goste dos projetos que estão aqui e aguardo seu contato.",
-    "paragraph6": "Busco contribuir com soluções reais e crescer em equipe, sempre com dedicação e responsabilidade."
+    "paragraph6": "Busco contribuir com soluções reais e crescer em equipe, sempre com dedicação e responsabilidade.",
+    "buttons": {
+       "continuar_lendo": "Continuar lendo",
+       "mostrar_menos": "Mostrar menos"
+     }
   },
   "projetos": {
     "titulo_secao": "Projetos Desenvolvidos",

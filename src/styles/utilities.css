@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Container utilities */
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-spacing {
+    @apply py-12 sm:py-16 md:py-24;
+  }
+  
+  /* Grid utilities */
+  .grid-responsive-2 {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6;
+  }
+  
+  .grid-responsive-3 {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8;
+  }
+  
+  /* Text utilities */
+  .text-responsive-base {
+    @apply text-sm sm:text-base md:text-lg;
+  }
+  
+  .text-responsive-lg {
+    @apply text-base sm:text-lg md:text-xl;
+  }
+  
+  /* Header utilities */
+  .header-link {
+    @apply hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors text-sm sm:text-base;
+  }
+  
+  /* Button utilities */
+  .btn-primary {
+    @apply px-4 sm:px-6 py-2 sm:py-3 bg-indigo-600 text-white rounded-lg sm:rounded-xl 
+           hover:bg-indigo-700 transition-colors text-sm sm:text-base font-medium;
+  }
+  
+  .btn-secondary {
+    @apply px-4 sm:px-6 py-2 sm:py-3 bg-accent text-white rounded-lg sm:rounded-xl 
+           hover:bg-accent/90 transition-colors text-sm sm:text-base font-medium;
+  }
+  
+    .text-responsive-base {
+      @apply text-sm sm:text-base md:text-lg;
+    }
+    
+    .hero-image {
+      @apply relative rounded-full overflow-hidden shadow-lg;
+    }
+    .logo-gradient {
+      @apply font-bold
+      bg-gradient-to-r
+      from-indigo-600
+      via-accent
+      to-indigo-500
+      bg-clip-text
+      text-transparent
+      transition-all
+      duration-500
+      hover:from-accent
+      hover:via-indigo-600
+      hover:to-accent;
+  }
+}
+/* src/styles/utilities.css */
+
+
+/* No seu index.css, importe este arquivo */

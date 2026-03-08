@@ -8,11 +8,17 @@ export default function BtnScrollTop() {
 
   useEffect(() => {
     const toggleVisibility = () => {
-      const threshold = window.innerWidth < 768 ? 10 : 200;
+      
+    const threshold = window.innerWidth < 768 ? 300 : 400;
+   
+      // Mobile: 300px, Desktop: 400px
       setIsVisible(window.scrollY > threshold);
     };
 
     window.addEventListener("scroll", toggleVisibility);
+    // Chama uma vez para verificar posição inicial
+    toggleVisibility();
+    
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 

@@ -22,7 +22,11 @@
     "paragraph3": "At that point, I decided to transition into a profession that would be more sustainable in the long term. Reflecting on my soft skills and educational background, I researched career paths that aligned with my strengths and professional goals. Through conversations and research, I discovered that many paths were leading toward Information Technology.",
     "paragraph4": "After deciding to transition into technology, I realized that this journey involves much more than learning how to code. It requires resilience, continuous learning, problem-solving, and navigating real-world challenges — with plenty of debugging along the way. I am currently pursuing a Technical Degree in Systems Development at SENAI.",
     "paragraph5": "I am committed to continuously improving my skills and applying my knowledge in practical projects while exploring the many possibilities within the technology field. I am proud to say that this website was fully designed and developed by me, as well as the projects that follow. I hope you enjoy exploring my projects, and I look forward to connecting with you.",
-    "paragraph6": "I am seeking opportunities to contribute to meaningful solutions and grow as part of a collaborative team, always with dedication and responsibility."
+    "paragraph6": "I am seeking opportunities to contribute to meaningful solutions and grow as part of a collaborative team, always with dedication and responsibility.",
+    "buttons": {
+        "continuar_lendo": "Continue reading",
+        "mostrar_menos": "Show less"
+      }
   },
   "projetos": {
     "titulo_secao": "Projects & Technical Experience",

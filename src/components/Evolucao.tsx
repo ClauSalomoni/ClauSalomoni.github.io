@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import FadeParagraph from "./FadeParagraph";
+
 import { Linkedin, MessageCircle } from "lucide-react";
 
 // Interface para os itens técnicos
@@ -20,11 +21,6 @@ export default function Evolucao() {
   // Pega a lista de habilidades técnicas
   const technicalItems = t('evolucao.technical.items', { returnObjects: true }) as TechnicalItem[];
 
-    // 👇 DEBUG: Veja o que está vindo
-  console.log('technicalItems:', technicalItems);
-  console.log('É array?', Array.isArray(technicalItems));
-
-  
   
   // Pega a lista de habilidades comportamentais
   const comportamentalItems = t('evolucao.comportamentais.items', { returnObjects: true }) as ComportamentalItem[];
@@ -56,11 +52,13 @@ export default function Evolucao() {
         {/* Habilidades Comportamentais */}
         <div className="border-l-4 border-accent pl-4">
           <p className="text-accent text-xl font-bold">{t('evolucao.comportamentais.title')}</p>
+          <FadeParagraph>
           {comportamentalItems.map((item, index) => (
             <p key={index} className="text-gray-500">
               <span className="font-semibold text-gray-400">{item.category}</span> {item.description}
             </p>
           ))}
+          </FadeParagraph>
         </div>
       </div>
 

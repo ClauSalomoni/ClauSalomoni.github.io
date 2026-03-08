@@ -1,48 +1,81 @@
+import { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import FadeText from "./FadeText";
 import FadeParagraph from "./FadeParagraph";
+import Section from './layout/Section';
+import Container from './layout/Container';
+import Button from './ui/Button';
+import { Title } from './ui/Typography';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 
 export default function Sobre() {
   const { t } = useTranslation();
+  const [expandido, setExpandido] = useState(false);
+  const tituloRef = useRef<HTMLHeadingElement>(null);
+
+  const paragrafos = [1, 2, 3, 4, 5, 6];
+  const paragrafosIniciais = 1;
+
+  const handleToggle = () => {
+    if (expandido) {
+      // Scroll suave para o título com offset do header
+      if (tituloRef.current) {
+        const headerOffset = 80;
+        const elementPosition = tituloRef.current.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      }
+    }
+    setExpandido(!expandido);
+  };
 
   return (
-    <section id="sobre" className="py-16 md:py-24 bg-white dark:bg-gray-950">
-      <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
-          <FadeText as="h2" className="text-3xl md:text-4xl font-bold mb-8">
+    <Section id="sobre" bgColor="white">
+      <Container size="small">
+        <FadeText as="div" className="mb-6 md:mb-8">
+          <Title 
+            as="h2" 
+            center
+            ref={tituloRef} // 👈 Referência no título
+          >
             {t('sobre.title')}
-          </FadeText>
-        </h2>
+          </Title>
+        </FadeText>
         
-        <FadeParagraph>
-          {t('sobre.paragraph1')}
-        </FadeParagraph>
-        <br className="hidden md:block" /><br className="hidden md:block" />
-        
-        <FadeParagraph>
-          {t('sobre.paragraph2')}
-        </FadeParagraph>
-        <br className="hidden md:block" /><br className="hidden md:block" />
-        
-        <FadeParagraph>
-          {t('sobre.paragraph3')}
-        </FadeParagraph>
-        <br className="hidden md:block" /><br className="hidden md:block" />
-        
-        <FadeParagraph>
-          {t('sobre.paragraph4')}
-          <br className="hidden md:block" /><br className="hidden md:block" />
-        </FadeParagraph>
-        
-        <FadeParagraph>
-          {t('sobre.paragraph5')}
-        </FadeParagraph>
-        <br className="hidden md:block" /><br className="hidden md:block" />
-        
-        <FadeParagraph>
-          {t('sobre.paragraph6')}
-        </FadeParagraph>
-      </div>
-    </section>
+        <div className="space-y-3 md:space-y-6">
+          {paragrafos.map((num, index) => {
+            if (!expandido && index >= paragrafosIniciais) return null;
+            
+            return (
+              <FadeParagraph key={num} size="base">
+                {t(`sobre.paragraph${num}`)}
+              </FadeParagraph>
+            );
+          })}
+        </div>
+
+        <div className="text-center mt-6 md:mt-8">
+          <Button
+            onClick={handleToggle}
+            variant="secondary"
+            className="inline-flex items-center gap-2"
+          >
+            {expandido ? (
+              <>
+                {t('sobre.buttons.mostrar_menos')} <ChevronUp size={16} />
+              </>
+            ) : (
+              <>
+                {t('sobre.buttons.continuar_lendo')} <ChevronDown size={16} />
+              </>
+            )}
+          </Button>
+        </div>
+      </Container>
+    </Section>
   );
 }

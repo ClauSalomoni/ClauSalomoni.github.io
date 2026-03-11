@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import FadeParagraph from "./FadeParagraph";
+import RevealText from "./RevealText";
+import { Title, Paragraph } from './ui/Typography';
 
 import { Linkedin, MessageCircle } from "lucide-react";
 
@@ -27,45 +28,72 @@ export default function Evolucao() {
 
   return (
     <section className="mt-20 px-6 md:px-12">
-      <div className="text-center mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold text-accent mb-4">
+      <RevealText delay={100} className="text-center mb-12">
+        <Title 
+          as="h2" 
+          className="text-accent mb-4" 
+        >
           {t('evolucao.frase_destaque')}
-        </h2>
-        <p className="text-lg text-gray-500">
+        </Title>
+        
+        <Paragraph size="large" muted>
           {t('evolucao.subtitulo')}
-        </p>
-      </div>
+        </Paragraph>
+      </RevealText>
 
       <div className="max-w-2xl mx-auto space-y-8">
         {/* Habilidades Técnicas */}
-        <div className="border-l-4 border-accent pl-4">
-          <p className="text-accent text-xl font-bold">{t('evolucao.technical.title')}</p>
-          <FadeParagraph>
-            {technicalItems.map((item, index) => (
-              <p key={index} className="text-gray-500">
-                <span className="font-semibold text-gray-400">{item.category}</span> {item.skills}
-              </p>
-            ))}
-          </FadeParagraph>
-        </div>
+        <RevealText delay={200}>
+          <div className="border-l-4 border-accent pl-4">
+            <Title as="h3" className="text-accent text-xl mb-2">{t('evolucao.technical.title')}</Title>
+              <div className="space-y-2">
+                {technicalItems.map((item, index) => (
+                  <RevealText key={index} delay={250 + (index * 50)}>
+                    <Paragraph size="base">
+                      <span className="font-bold text-gray-900 dark:text-gray-100">
+                        {item.category}
+                      </span>{' '}
+                      {/* 👇 CORRIGIDO: melhor contraste */}
+                      <span className="text-gray-700 dark:text-gray-300">
+                        {item.skills}
+                      </span>
+                    </Paragraph>
+                  </RevealText>
+                ))}
+              </div>
+           </div>
+        </RevealText>
 
         {/* Habilidades Comportamentais */}
-        <div className="border-l-4 border-accent pl-4">
-          <p className="text-accent text-xl font-bold">{t('evolucao.comportamentais.title')}</p>
-          <FadeParagraph>
-          {comportamentalItems.map((item, index) => (
-            <p key={index} className="text-gray-500">
-              <span className="font-semibold text-gray-400">{item.category}</span> {item.description}
-            </p>
-          ))}
-          </FadeParagraph>
-        </div>
+        <RevealText delay={300}>
+          <div className="border-l-4 border-accent pl-4">
+            <Title as="h3" className="text-accent text-xl mb-2">
+              {t('evolucao.comportamentais.title')}
+            </Title>
+            
+            <div className="space-y-2">
+              {comportamentalItems.map((item, index) => (
+                <RevealText key={index} delay={350 + (index * 50)}>
+                   <Paragraph size="base">
+                    <span className="font-bold text-gray-900 dark:text-gray-100">
+                      {item.category}
+                    </span>{' '}
+                    {/* 👇 CORRIGIDO: melhor contraste */}
+                    <span className="text-gray-700 dark:text-gray-300">
+                      {item.description}
+                    </span>
+                  </Paragraph>
+                </RevealText>
+              ))}
+            </div>
+          </div>
+        </RevealText>
       </div>
 
       <div className="mt-12 text-center">
-        <p className="text-lg font-medium mb-6">
+        <Paragraph size="large" className="mb-6 font-medium">
           {t('evolucao.chamada')}
-        </p>
+        </Paragraph>
         
         {/* Container flex para os botões */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

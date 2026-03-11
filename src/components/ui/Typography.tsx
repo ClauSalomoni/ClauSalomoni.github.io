@@ -36,7 +36,7 @@ export const Title = forwardRef<HTMLHeadingElement, TitleProps>(({
   return (
     <Component 
       ref={ref}
-      className={`font-extrabold text-gray-900 dark:text-gray-100 ${getSizeClass()} ${center ? 'text-center' : ''} ${className}`}
+      className={`font-extrabold ${getSizeClass()} ${center ? 'text-center' : ''} ${className}`}
     >
       {children}
     </Component>
@@ -49,12 +49,14 @@ interface ParagraphProps {
   children: React.ReactNode;
   className?: string;
   size?: 'large' | 'base' | 'small';
+  muted?: boolean;
 }
 
 export function Paragraph({ 
   children, 
   className = '',
-  size = 'base'
+  size = 'base',
+  muted = false
 }: ParagraphProps) {
   
   // 👇 Verificação de segurança para TEXT_SIZES.body
@@ -71,9 +73,15 @@ export function Paragraph({
       return fallbackSizes[size];
     }
   };
+  const getColorClass = () => {
+    if (muted) {
+      return 'text-gray-600 dark:text-gray-400'; // Cinza médio (bom contraste)
+    }
+    return 'text-gray-700 dark:text-gray-300'; // Cinza escuro (excelente contraste)
+  };
 
   return (
-    <p className={`${getSizeClass()} text-gray-700 dark:text-gray-300 leading-relaxed ${className}`}>
+    <p className={`${getSizeClass()} ${getColorClass()} leading-relaxed ${className}`}>
       {children}
     </p>
   );

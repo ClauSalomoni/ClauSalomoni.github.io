@@ -2,12 +2,14 @@
   "header": {
     "logo": "Claudia Salomoni",
     "cv": "Baixar CV",
+    "descricao": "Mais Opções",
     "sobre": "Sobre",
     "projetos": "Projetos",
     "contato": "Contato",
     "whatsapp": "WhatsApp",
     "email": "E-mail",
     "linkedin": "LinkedIn"
+    
   },
   "hero": {
     "title": "Transformando Ideias em código",

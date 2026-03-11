@@ -71,12 +71,13 @@ export default function Header() {
             </a>
 
             <LanguageSwitcher />
-
+            
             {/* Menu Hamburguer - mobile */}
             <button
               onClick={() => setMenuAberto(!menuAberto)}
               className="lg:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
               aria-label="Menu"
+              title={t("header.descricao")}
             >
               {menuAberto ? <X size={20} /> : <Menu size={20} />}
             </button>
@@ -99,7 +100,7 @@ export default function Header() {
             <li className="relative">
               <button
                 onClick={() => setMostrarContato(!mostrarContato)}
-                className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+                className={`flex items-center gap-2 hover:underline "text-indigo-500"`}
               >
                 {t('header.contato')}
               </button>

@@ -1,11 +1,12 @@
 import { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import FadeText from "./FadeText";
-import FadeParagraph from "./FadeParagraph";
-import Section from './layout/Section';
-import Container from './layout/Container';
+//import FadeText from "./FadeText";
+//import FadeParagraph from "./FadeParagraph";
+import RevealText from './RevealText.tsx';
+import Section from './layout/Section.tsx';
+import Container from './layout/Container.tsx';
 import Button from './ui/Button';
-import { Title } from './ui/Typography';
+import { Title, Paragraph } from './ui/Typography.tsx'
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
 export default function Sobre() {
@@ -36,7 +37,7 @@ export default function Sobre() {
   return (
     <Section id="sobre" bgColor="white">
       <Container size="small">
-        <FadeText as="div" className="mb-6 md:mb-8">
+        <RevealText as="div" className="mb-6 md:mb-8">
           <Title 
             as="h2" 
             center
@@ -44,16 +45,18 @@ export default function Sobre() {
           >
             {t('sobre.title')}
           </Title>
-        </FadeText>
+        </RevealText>
         
         <div className="space-y-3 md:space-y-6">
           {paragrafos.map((num, index) => {
             if (!expandido && index >= paragrafosIniciais) return null;
             
             return (
-              <FadeParagraph key={num} size="base">
+              <RevealText key={num} delay={150 + (index * 50)}>
+                <Paragraph>
                 {t(`sobre.paragraph${num}`)}
-              </FadeParagraph>
+                </Paragraph>
+              </RevealText>
             );
           })}
         </div>

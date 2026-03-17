@@ -70,9 +70,9 @@
       },
       {
         "titulo": "Community Collaboration",
-        "descricao": "Contributing with visual improvements and responsiveness adjustments, replacing AI images with real photos. My first hands-on experience collaborating with a tech community.",
-        "link": "https://github.com/pyladies-floripa/site-pyladies-floripa",
-        "textoLink": "PyLadies Floripa Repo →"
+        "descricao": "Contributing with refactoring and responsiveness adjustments, creating reusable components. Replacing AI images with real photos. My first hands-on experience collaborating with a tech community.",
+        "link": "https://clausalomoni.github.io/site-pyladies-floripa/",
+        "textoLink": "PyLadies Floripa - Website Demo →"
       },
       {
         "titulo": "Interactive Dashboard",

@@ -71,9 +71,9 @@
       },
       {
         "titulo": "Colaboração em comunidade",
-        "descricao": "Contribuindo com melhorias visuais e ajustes de responsividade, substituindo imagens de IA por fotos reais. Minha primeira experiência prática em colaboração com uma comunidade de tecnologia",
-        "link": "https://github.com/pyladies-floripa/site-pyladies-floripa",
-        "textoLink": "Repositório PyLadies Floripa →"
+        "descricao": "Contribuindo com refatoração e ajustes de responsividade, criando componentes reutilizáveis. Substituindo imagens de IA por fotos reais. Minha primeira experiência prática em colaboração com uma comunidade de tecnologia",
+        "link": "https://clausalomoni.github.io/site-pyladies-floripa/",
+        "textoLink": "PyLadies Floripa - Site Demo→"
       },
       {
         "titulo": "Dashboard Interativo",

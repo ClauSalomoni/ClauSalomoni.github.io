@@ -24,7 +24,7 @@ export default function Header() {
 
   const cvLink = isPortuguese
     ? "/Claudia_Salomoni_CV.pdf"
-    : "/Claudia_Salomoni_resume_EN.pdf";
+    : "/Claudia_Salomoni_Resume_EN.pdf";
 
   const handleLinkClick = () => {
     setMenuAberto(false);

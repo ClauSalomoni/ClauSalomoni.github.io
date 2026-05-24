@@ -33,6 +33,12 @@
     "titulo_secao": "Projects & Technical Experience",
     "items": [
       {
+        "titulo": "Public Spending Analysis — São José City Hall (SC)",
+        "descricao": "Analytical dashboard developed using real public transparency data from São José City Hall (SC), Brazil. The project uses Power BI to transform raw government data into visual insights about budget execution, payments, committed expenses, and public spending distribution.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiOTU3ZTQzMGItYTk2My00MTNmLWI5MTItNzVjOGUwMzMwZWMxIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "Explore Public Dashboard →"
+      },
+      {
         "titulo": "Marketing Report PBI",
         "descricao": "Marketing Report developed for a fictional company, using Power BI to transform raw data into Marketing insights. The focus is on creating performance KPIs and data storytelling to support decision-making.",
         "link": "https://app.powerbi.com/view?r=eyJrIjoiMTNlZGU5MDgtOTU2ZS00ZGU4LWFmMjYtNDM3YzFkNWM3MGZiIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",

@@ -14,12 +14,12 @@ export default function Container({
   
   const sizes = {
     small: 'max-w-3xl',
-    default: 'max-w-5xl',
-    large: 'max-w-7xl',
+    default: 'w-full max-w-5xl',
+    large: 'max-w-7xl w-full',
   };
 
   return (
-    <div className={`${sizes[size]} mx-auto px-4 sm:px-6 lg:px-8 ${className}`}>
+    <div className={`w-full ${sizes[size]} mx-auto px-4 sm:px-6 lg:px-8 ${className}`}>
       {children}
     </div>
   );

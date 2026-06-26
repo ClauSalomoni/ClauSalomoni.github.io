@@ -34,6 +34,13 @@
     "titulo_secao": "Projetos Desenvolvidos",
     "items": [
       {
+        "titulo": "Dashboard de Despesas Públicas Municipais — React & Python",
+        "descricao": "Aplicação web interativa focada exclusivamente no mapeamento de despesas públicas. Utiliza scripts em Python (Pandas/NumPy) para o tratamento, auditoria e modelagem dimensional de 4 anos de gastos municipais, consolidando os dados em um front-end moderno e responsivo em React e Tailwind CSS com gráficos dinâmicos.",
+        "link": "https://saojose-transparente-psi.vercel.app/",
+        "textoLink": "Ver Aplicação Online →"
+      },
+
+      {
         "titulo": "Análise de Despesas Públicas - PMSJ em PBI",
         "descricao": "Projeto de análise de despesas públicas utilizando dados reais do Portal da Transparência do Município de São José (SC). Inclui modelagem de dados, tratamento no Power Query, criação de KPIs fiscais e visualizações interativas para análise orçamentária e financeira.",
         "link": "https://app.powerbi.com/view?r=eyJrIjoiOTU3ZTQzMGItYTk2My00MTNmLWI5MTItNzVjOGUwMzMwZWMxIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9&pageName=19ee643d11054688c364",

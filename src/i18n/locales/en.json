@@ -33,6 +33,13 @@
     "titulo_secao": "Projects & Technical Experience",
     "items": [
       {
+        "titulo": "Municipal Expenditures Dashboard — React & Python",
+        "descricao": "An interactive web application showcasing an end-to-end data pipeline. Features a data processing and ETL backend built with Python (Pandas/NumPy) to clean and model 4 years of municipal public expenditures. React/Tailwind frontend for interactive charts and financial KPIs.",
+        "link": "https://saojose-transparente-psi.vercel.app/",
+        "textoLink": "View Live Application →"
+      },
+
+      {
         "titulo": "Public Spending Analysis — São José City Hall (SC)",
         "descricao": "Analytical dashboard developed using real public transparency data from São José City Hall (SC), Brazil. The project uses Power BI to transform raw government data into visual insights about budget execution, payments, committed expenses, and public spending distribution.",
         "link": "https://app.powerbi.com/view?r=eyJrIjoiOTU3ZTQzMGItYTk2My00MTNmLWI5MTItNzVjOGUwMzMwZWMxIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9&pageName=19ee643d11054688c364",

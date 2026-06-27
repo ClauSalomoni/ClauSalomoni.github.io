@@ -26,6 +26,10 @@ export default function Header() {
     ? "/Claudia_Salomoni_CV.pdf"
     : "/Claudia_Salomoni_Resume_EN.pdf";
 
+  const downloadName = isPortuguese
+    ? "Curriculo_Claudia_Salomoni.pdf"
+    : "Resume_Claudia_Salomoni.pdf";
+
   const handleLinkClick = () => {
     setMenuAberto(false);
     setMostrarContato(false);
@@ -49,6 +53,7 @@ export default function Header() {
             {/* CV - versão desktop (texto) */}
             <a
               href={cvLink}
+              download={downloadName}
               target="_blank"
               rel="noopener noreferrer"
               className="hidden xs:inline-block px-2 sm:px-3 py-1 sm:py-1.5 text-xs sm:text-sm bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors whitespace-nowrap"
@@ -62,6 +67,7 @@ export default function Header() {
             {/* CV - versão mobile (ícone) */}
             <a
               href={cvLink}
+              download={downloadName}
               target="_blank"
               rel="noopener noreferrer"
               className="xs:hidden p-2 text-indigo-600 dark:text-indigo-400"

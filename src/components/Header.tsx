@@ -61,11 +61,11 @@ export default function Header() {
               {t("header.cv")}
             </a>
             <a
-              href="https://github.com/ClauSalomoni/curriculo"
+              href="https://clausalomoni.github.io/curriculo/"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden xs:inline-block px-2 sm:px-3 py-1 sm:py-1.5 text-xs sm:text-sm bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors whitespace-nowrap"
-            >Teste
+            >CV Digital
             </a>
           </div>
 
@@ -81,6 +81,14 @@ export default function Header() {
               title={t("header.cv")}
             >
               CV
+            </a>
+
+               <a
+              href="https://clausalomoni.github.io/curriculo/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="xs:hidden p-2 text-indigo-600 dark:text-indigo-400"
+            >online
             </a>
 
             <LanguageSwitcher />

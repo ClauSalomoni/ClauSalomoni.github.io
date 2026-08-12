@@ -31,12 +31,14 @@
   },
   "projetos": {
     "titulo_secao": "Projects & Technical Experience",
+    "ver_codigo": "Code",
     "items": [
       {
         "titulo": "Municipal Expenditures Dashboard — React & Python",
         "descricao": "An interactive web application showcasing an end-to-end data pipeline. Features a data processing and ETL backend built with Python (Pandas/NumPy) to clean and model 4 years of municipal public expenditures. React/Tailwind frontend for interactive charts and financial KPIs.",
         "link": "https://saojose-transparente-psi.vercel.app/",
-        "textoLink": "View Live Application →"
+        "textoLink": "View Live Application →",
+        "linkGithub": "https://github.com/ClauSalomoni/saojose-transparente"
       },
 
       {
@@ -85,7 +87,8 @@
         "titulo": "Community Collaboration",
         "descricao": "Contributing with refactoring and responsiveness adjustments, creating reusable components. Replacing AI images with real photos. My first hands-on experience collaborating with a tech community.",
         "link": "https://clausalomoni.github.io/site-pyladies-floripa/",
-        "textoLink": "PyLadies Floripa - Website Demo →"
+        "textoLink": "PyLadies Floripa - Website Demo →",
+        "linkGithub": "https://github.com/pyladies-floripa-site/pyladies-floripa-website"
       },
       {
         "titulo": "Interactive Dashboard",

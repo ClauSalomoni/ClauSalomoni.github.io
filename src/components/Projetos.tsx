@@ -12,6 +12,7 @@ interface Projeto {
   descricao: string;
   link: string;
   textoLink: string;
+  linkGithub?: string; // opcional 
 }
 
 function isProjeto(obj: unknown): obj is Projeto {
@@ -21,7 +22,9 @@ function isProjeto(obj: unknown): obj is Projeto {
     typeof projeto.titulo === 'string' &&
     typeof projeto.descricao === 'string' &&
     typeof projeto.link === 'string' &&
-    typeof projeto.textoLink === 'string'
+    typeof projeto.textoLink === 'string' &&
+    // Valida se o linkGithub não existe OU se é uma string quando fornecido
+    (projeto.linkGithub === undefined || typeof projeto.linkGithub === 'string')
   );
 }
 
@@ -52,15 +55,32 @@ export default function Projetos() {
               <Paragraph className="mb-4 flex-grow">
                 {projeto.descricao}
               </Paragraph>
-              
-              <Button 
-                href={projeto.link} 
-                variant="primary" 
-                external
-                className="mt-auto"
-              >
-                {projeto.textoLink}
-              </Button>
+
+              <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row w-full gap-2.5 sm:gap-4 min-w-0">
+             {projeto.link && (
+                <Button 
+                  href={projeto.link} 
+                  variant="primary" 
+                  external
+                  className="w-full sm:flex-1 text-center truncate"
+                >
+                  {projeto.textoLink}
+                </Button>
+              )}
+
+              {/* Botão do Código / GitHub (só aparece se existir projeto.linkGithub) */}
+              {projeto.linkGithub && (
+                <Button 
+                  href={projeto.linkGithub} 
+                  variant="accent" 
+                  external
+                  className="w-full sm:flex-1 text-center truncate"
+                >
+                  {t('projetos.ver_codigo', 'Ver Código')} {/* Ex: "Ver Código" */}
+                </Button>
+              )}
+              </div>
+
             </Card>
           ))}
         </Grid>

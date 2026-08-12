@@ -32,12 +32,14 @@
   },
   "projetos": {
     "titulo_secao": "Projetos Desenvolvidos",
+    "ver_codigo": "Ver Código",
     "items": [
       {
         "titulo": "Dashboard de Despesas Públicas Municipais — React & Python",
         "descricao": "Aplicação web interativa focada exclusivamente no mapeamento de despesas públicas. Utiliza scripts em Python (Pandas/NumPy) para o tratamento, auditoria e modelagem dimensional de 4 anos de gastos municipais, consolidando os dados em um front-end moderno e responsivo em React e Tailwind CSS com gráficos dinâmicos.",
         "link": "https://saojose-transparente-psi.vercel.app/",
-        "textoLink": "Ver Aplicação Online →"
+        "textoLink": "Ver Aplicação Online →",
+        "linkGithub": "https://github.com/ClauSalomoni/saojose-transparente"
       },
 
       {
@@ -86,7 +88,8 @@
         "titulo": "Colaboração em comunidade",
         "descricao": "Contribuindo com refatoração e ajustes de responsividade, criando componentes reutilizáveis. Substituindo imagens de IA por fotos reais. Minha primeira experiência prática em colaboração com uma comunidade de tecnologia",
         "link": "https://clausalomoni.github.io/site-pyladies-floripa/",
-        "textoLink": "PyLadies Floripa - Site Demo→"
+        "textoLink": "PyLadies Floripa - Site Demo→",
+        "linkGithub": "https://github.com/pyladies-floripa-site/pyladies-floripa-website"
       },
       {
         "titulo": "Dashboard Interativo",

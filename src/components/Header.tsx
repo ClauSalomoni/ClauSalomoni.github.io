@@ -23,11 +23,11 @@ export default function Header() {
     : true;
 
   const cvLink = isPortuguese
-    ? "/Claudia_Salomoni_CV.pdf"
+    ? "/curriculo-claudia-salomoni-pt.pdf"
     : "/Claudia_Salomoni_Resume_EN.pdf";
 
   const downloadName = isPortuguese
-    ? "Curriculo_Claudia_Salomoni.pdf"
+    ? "curriculo-claudia-salomoni-pt.pdf"
     : "Resume_Claudia_Salomoni.pdf";
 
   const handleLinkClick = () => {

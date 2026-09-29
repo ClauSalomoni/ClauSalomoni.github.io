@@ -76,7 +76,8 @@
         "titulo": "Jogo da Bomba",
         "descricao": "Um jogo interativo para testar raciocínio e lógica, desenvolvido com JavaScript, HTML, CSS e Flask, hospedado no Render.",
         "link": "https://desarme-bomba-flask.onrender.com",
-        "textoLink": "Jogar Demo →"
+        "textoLink": "Jogar Demo →",
+        "linkGithub": "https://desarme-bomba-flask.onrender.com/"
       },
       {
         "titulo": "Meu Github",

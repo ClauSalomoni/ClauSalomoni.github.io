@@ -75,7 +75,8 @@
         "titulo": "Bomb Game",
         "descricao": "An interactive game to test reasoning and logic, developed with JavaScript, HTML, CSS and Flask, hosted on Render.",
         "link": "https://desarme-bomba-flask.onrender.com",
-        "textoLink": "Play Demo →"
+        "textoLink": "Play Demo →",
+        "linkGithub": "https://desarme-bomba-flask.onrender.com/"
       },
       {
         "titulo": "My Github",

@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { SOCIAL_LINKS } from '../config/constants';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -12,13 +13,13 @@ export default function Footer() {
         </p>
         <div className="flex justify-center space-x-4">
           <a
-            href="mailto:claudia404salomoni@gmail.com"
+            href={SOCIAL_LINKS.email}
             className="hover:text-indigo-400 transition"
           >
             {t('header.email')}
           </a>
           <a
-            href="https://www.linkedin.com/in/clau-salomoni/"
+            href={SOCIAL_LINKS.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-400 transition"
@@ -26,7 +27,7 @@ export default function Footer() {
             {t('header.linkedin')}
           </a>
           <a
-            href="https://wa.me/5548991030916"
+            href={SOCIAL_LINKS.whatsapp}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-400 transition"

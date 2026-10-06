@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import RevealText from "./RevealText";
 import { Title, Paragraph } from './ui/Typography';
+import { SOCIAL_LINKS } from "../config/constants";
 
 import { Linkedin, MessageCircle } from "lucide-react";
 
@@ -101,7 +102,7 @@ export default function Evolucao() {
           {/* Botão WhatsApp */}
           {/* Botão LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/clau-salomoni/"
+            href={SOCIAL_LINKS.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition-all text-lg font-semibold shadow-md w-full sm:w-auto justify-center"
@@ -110,7 +111,7 @@ export default function Evolucao() {
              {t('evolucao.botao_linkedin')}
           </a>
           <a
-            href="https://wa.me/5548991030916?text=Olá%20Claudia%2C%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar!"
+            href={SOCIAL_LINKS.whatsapp}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-xl transition-all text-lg font-semibold shadow-md w-full sm:w-auto justify-center"

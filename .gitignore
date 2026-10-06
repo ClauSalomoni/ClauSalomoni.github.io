@@ -26,6 +26,6 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
-
+.env
 .tmp.driveupload/
 .env

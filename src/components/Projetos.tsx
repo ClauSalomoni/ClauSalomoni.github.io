@@ -3,28 +3,21 @@ import FadeText from "./FadeText";
 import Section from './layout/Section';
 import Container from './layout/Container';
 import Grid from './layout/Grid';
-import Card from './ui/Card';
-import Button from './ui/Button';
-import { Title, Paragraph } from './ui/Typography';
-
-interface Projeto {
-  titulo: string;
-  descricao: string;
-  link: string;
-  textoLink: string;
-  linkGithub?: string; // opcional 
-}
+import { Title } from './ui/Typography';
+import ProjectCard from './ProjectCard';
+import type { Projeto } from './ProjectCard';
 
 function isProjeto(obj: unknown): obj is Projeto {
   if (!obj || typeof obj !== 'object') return false;
-  const projeto = obj as Record<string, unknown>;
+  const p = obj as Record<string, unknown>;
   return (
-    typeof projeto.titulo === 'string' &&
-    typeof projeto.descricao === 'string' &&
-    typeof projeto.link === 'string' &&
-    typeof projeto.textoLink === 'string' &&
-    // Valida se o linkGithub não existe OU se é uma string quando fornecido
-    (projeto.linkGithub === undefined || typeof projeto.linkGithub === 'string')
+    typeof p.titulo === 'string' &&
+    typeof p.descricao === 'string' &&
+    typeof p.link === 'string' &&
+    typeof p.textoLink === 'string' &&
+    (p.linkGithub === undefined || typeof p.linkGithub === 'string') &&
+    (p.detalhes === undefined || typeof p.detalhes === 'string') &&
+    (p.techs === undefined || (Array.isArray(p.techs) && p.techs.every(item => typeof item === 'string')))
   );
 }
 
@@ -47,41 +40,7 @@ export default function Projetos() {
         
         <Grid cols={2} gap="md">
           {projetos.map((projeto, index) => (
-            <Card key={index} hover className="flex flex-col h-full">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                <FadeText>{projeto.titulo}</FadeText>
-              </h3>
-              
-              <Paragraph className="mb-4 flex-grow">
-                {projeto.descricao}
-              </Paragraph>
-
-              <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row w-full gap-2.5 sm:gap-4 min-w-0">
-             {projeto.link && (
-                <Button 
-                  href={projeto.link} 
-                  variant="primary" 
-                  external
-                  className="w-full sm:flex-1 text-center truncate"
-                >
-                  {projeto.textoLink}
-                </Button>
-              )}
-
-              {/* Botão do Código / GitHub (só aparece se existir projeto.linkGithub) */}
-              {projeto.linkGithub && (
-                <Button 
-                  href={projeto.linkGithub} 
-                  variant="accent" 
-                  external
-                  className="w-full sm:flex-1 text-center truncate"
-                >
-                  {t('projetos.ver_codigo', 'Ver Código')} {/* Ex: "Ver Código" */}
-                </Button>
-              )}
-              </div>
-
-            </Card>
+            <ProjectCard key={projeto.id || index} projeto={projeto} />
           ))}
         </Grid>
       </Container>

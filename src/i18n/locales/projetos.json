@@ -1,0 +1,85 @@
+    {
+      "id": "streamlit-salary",
+      "titulo": "Dados Salariais — Análise Interativa",
+      "descricao": "Web app para explorar dados salariais por meio de filtros e gráficos interativos.",
+      "detalhes": "Desenvolvi uma interface simples para explorar diferentes variáveis salariais, permitindo filtrar os dados e visualizar os resultados de forma dinâmica.",
+      "techs": ["Python", "Streamlit", "Pandas"],
+      "link": "https://salarydash.streamlit.app/",
+      "textoLink": "Explorar aplicação"
+    },
+    {
+      "id": "marketing-report-pbi",
+      "titulo": "Marketing — Indicadores de Performance",
+      "descricao": "Dashboard em Power BI para acompanhar aquisição, conversão, retenção e desempenho de canais.",
+      "detalhes": "Transformei dados de marketing em indicadores e visualizações para acompanhar resultados por canal e facilitar a análise de desempenho.",
+      "techs": ["Power BI", "DAX", "Data Visualization"],
+      "link": "https://app.powerbi.com/view?r=eyJrIjoiMTNlZGU5MDgtOTU2ZS00ZGU4LWFmMjYtNDM3YzFkNWM3MGZiIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+      "textoLink": "Ver dashboard"
+    },
+    {
+      "id": "vendas-comercial-pbi",
+      "titulo": "Performance de Vendas — Dashboard",
+      "descricao": "Dashboard para acompanhar vendas, margens e metas com diferentes visões do desempenho comercial.",
+      "detalhes": "Criei uma análise com navegação entre páginas e filtros por filial e categoria, permitindo acompanhar o faturamento e comparar resultados ao longo do tempo.",
+      "techs": ["Power BI", "DAX", "Data Visualization"],
+      "link": "https://app.powerbi.com/view?r=eyJrIjoiYTkyZGFkZjYtNWYyMC00OWNkLThhN2MtZTBiNTA5ZmRmOGUwIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+      "textoLink": "Ver dashboard"
+    },
+    {
+      "id": "logistica-pbi",
+      "titulo": "Performance Logística — Dashboard",
+      "descricao": "Dashboard para acompanhar prazos de entrega, devoluções e desempenho das transportadoras.",
+      "detalhes": "Organizei indicadores operacionais para facilitar a identificação de atrasos, gargalos e diferenças de desempenho entre transportadoras.",
+      "techs": ["Power BI", "Power Query", "KPIs"],
+      "link": "https://app.powerbi.com/view?r=eyJrIjoiYTI3MWI0MDYtZmVjZS00NjI2LWI2YjAtNGYyOGFiNDg2Yzc2IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+      "textoLink": "Ver dashboard"
+    },
+    {
+      "id": "vendas-global-pbi",
+      "titulo": "Vendas Globais — Visão Executiva",
+      "descricao": "Dashboard de uma página para acompanhar faturamento e volume de vendas em diferentes mercados.",
+      "detalhes": "Criei uma visão executiva com indicadores principais e distribuição geográfica da receita para facilitar uma leitura rápida dos resultados.",
+      "techs": ["Power BI", "Data Visualization"],
+      "link": "https://app.powerbi.com/view?r=eyJrIjoiMGI1MTRhY2EtYTkzMy00YTQ0LWI1NmMtNjNmYjEwMzBjM2E4IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+      "textoLink": "Ver relatório"
+    },
+
+    ##Acima projetos PT.JSON
+    ##ABAIXO projetos EN.JSON
+
+    {
+        "titulo": "Marketing Report PBI",
+        "descricao": "Marketing Report developed for a fictional company, using Power BI to transform raw data into Marketing insights. The focus is on creating performance KPIs and data storytelling to support decision-making.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiMTNlZGU5MDgtOTU2ZS00ZGU4LWFmMjYtNDM3YzFkNWM3MGZiIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "View Live Dashboard →"
+      },
+      {
+        "titulo": "Logistics Performance Dashboard PBI",
+        "descricao": "Dashboard with an overview of some logistics KPIs, allowing monitoring by carrier.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiYTI3MWI0MDYtZmVjZS00NjI2LWI2YjAtNGYyOGFiNDg2Yzc2IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "Monitor data →"
+      },
+      {
+        "titulo": "Sales Performance PBI",
+        "descricao": "Multi-page dashboard developed for the Commercial area. It presents a detailed analysis of sales from fictional stores.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiYTkyZGFkZjYtNWYyMC00OWNkLThhN2MtZTBiNTA5ZmRmOGUwIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "Explore Dashboard →"
+      },
+      {
+        "titulo": "Global Sales Analysis PBI",
+        "descricao": "Single-page report showing a summary of sales from fictional companies around the world, with some KPIs and charts.",
+        "link": "https://app.powerbi.com/view?r=eyJrIjoiMGI1MTRhY2EtYTkzMy00YTQ0LWI1NmMtNjNmYjEwMzBjM2E4IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
+        "textoLink": "Sales Summary →"
+      },
+      {
+        "titulo": "My Github",
+        "descricao": "Currently, I'm focused on web development with JavaScript, HTML, CSS and exploring back-end with Flask and Node.js.",
+        "link": "https://github.com/ClauSalomoni",
+        "textoLink": "View Profile →"
+      },
+       {
+        "titulo": "Interactive Dashboard",
+        "descricao": "Developed during Alura's data immersion, this web application features dynamic charts and interactive filters, making data analysis and visualization accessible and intuitive.",
+        "link": "https://salarydash.streamlit.app/",
+        "textoLink": "Explore Data →"
+      },

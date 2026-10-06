@@ -30,6 +30,10 @@ export default function Header() {
     ? "Curriculo_Claudia_Salomoni.pdf"
     : "Resume_Claudia_Salomoni.pdf";
 
+  const curriculoDigital = isPortuguese
+    ? "CV Digital"
+    : "Digital Resume"
+
   const handleLinkClick = () => {
     setMenuAberto(false);
     setMostrarContato(false);
@@ -65,7 +69,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="hidden xs:inline-block px-2 sm:px-3 py-1 sm:py-1.5 text-xs sm:text-sm bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors whitespace-nowrap"
-            >CV Digital
+            >{curriculoDigital}
             </a>
           </div>
 

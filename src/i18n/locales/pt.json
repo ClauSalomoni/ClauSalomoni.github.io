@@ -31,81 +31,76 @@
      }
   },
   "projetos": {
-    "titulo_secao": "Projetos Desenvolvidos",
-    "ver_codigo": "Ver Código",
-    "items": [
-      {
-        "titulo": "Dashboard de Despesas Públicas Municipais — React & Python",
-        "descricao": "Aplicação web interativa focada exclusivamente no mapeamento de despesas públicas. Utiliza scripts em Python (Pandas/NumPy) para o tratamento, auditoria e modelagem dimensional de 4 anos de gastos municipais, consolidando os dados em um front-end moderno e responsivo em React e Tailwind CSS com gráficos dinâmicos.",
-        "link": "https://saojose-transparente-psi.vercel.app/",
-        "textoLink": "Ver Aplicação Online →",
-        "linkGithub": "https://github.com/ClauSalomoni/saojose-transparente"
-      },
-
-      {
-        "titulo": "Análise de Despesas Públicas - PMSJ em PBI",
-        "descricao": "Projeto de análise de despesas públicas utilizando dados reais do Portal da Transparência do Município de São José (SC). Inclui modelagem de dados, tratamento no Power Query, criação de KPIs fiscais e visualizações interativas para análise orçamentária e financeira.",
-        "link": "https://app.powerbi.com/view?r=eyJrIjoiOTU3ZTQzMGItYTk2My00MTNmLWI5MTItNzVjOGUwMzMwZWMxIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9&pageName=19ee643d11054688c364",
-        "textoLink": "Explorar Dashboard Público →"
-      },
-      {
-        "titulo": "Relatório de Marketing PBI",
-        "descricao": "Relatório de Marketing desenvolvido para uma empresa fictícia, utilizando o Power BI para transformar dados brutos em insights de Marketing. O foco está na criação de KPIs de performance e no storytelling de dados para suportar a tomada de decisão.",
-        "link": "https://app.powerbi.com/view?r=eyJrIjoiMTNlZGU5MDgtOTU2ZS00ZGU4LWFmMjYtNDM3YzFkNWM3MGZiIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
-        "textoLink": "Ver Dashboard ao vivo →"
-      },
-      {
-        "titulo": "Dashboard de Performance Logistica PBI",
-        "descricao": "Dashboard com uma visão geral de alguns KPIs de logistica, permitindo monitoramento por transportatora.",
-        "link": "https://app.powerbi.com/view?r=eyJrIjoiYTI3MWI0MDYtZmVjZS00NjI2LWI2YjAtNGYyOGFiNDg2Yzc2IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
-        "textoLink": "Monitore os dados →"
-      },
-      {
-        "titulo": "Performance de Vendas PBI",
-        "descricao": "Dashboard multipaginas, desenvolvido para a área Comercial. Apresenta uma análise detalhada das vendas de lojas fictícias.",
-        "link": "https://app.powerbi.com/view?r=eyJrIjoiYTkyZGFkZjYtNWYyMC00OWNkLThhN2MtZTBiNTA5ZmRmOGUwIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
-        "textoLink": "Explore Dashboard →"
-      },
-      {
-        "titulo": "Análise de Vendas Global PBI",
-        "descricao": "Relatório de pagina única mostrando de forma resumida as vendas de Empresas fictícias pelo mundo, com alguns KPIs e gráficos.",
-        "link": "https://app.powerbi.com/view?r=eyJrIjoiMGI1MTRhY2EtYTkzMy00YTQ0LWI1NmMtNjNmYjEwMzBjM2E4IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
-        "textoLink": "Análise resumida de Vendas →"
-      },
-      {
-        "titulo": "Jogo da Bomba",
-        "descricao": "Um jogo interativo para testar raciocínio e lógica, desenvolvido com JavaScript, HTML, CSS e Flask, hospedado no Render.",
-        "link": "https://desarme-bomba-flask.onrender.com",
-        "textoLink": "Jogar Demo →",
-        "linkGithub": "https://desarme-bomba-flask.onrender.com/"
-      },
-      {
-        "titulo": "Meu Github",
-        "descricao": "Atualmente, estou focada em desenvolvimento web com JavaScript, HTML, CSS e explorando back-end com Flask e Node.js.",
-        "link": "https://github.com/ClauSalomoni",
-        "textoLink": "Ver Perfil →"
-      },
-      {
-        "titulo": "Colaboração em comunidade",
-        "descricao": "Contribuindo com refatoração e ajustes de responsividade, criando componentes reutilizáveis. Substituindo imagens de IA por fotos reais. Minha primeira experiência prática em colaboração com uma comunidade de tecnologia",
-        "link": "https://clausalomoni.github.io/site-pyladies-floripa/",
-        "textoLink": "PyLadies Floripa - Site Demo→",
-        "linkGithub": "https://github.com/pyladies-floripa-site/pyladies-floripa-website"
-      },
-      {
-        "titulo": "Dashboard Interativo",
-        "descricao": "Desenvolvido na imersão de dados da Alura, este aplicativo web apresenta gráficos dinâmicos e filtros interativos, facilitando a análise e visualização de dados de forma acessível e intuitiva.",
-        "link": "https://salarydash.streamlit.app/",
-        "textoLink": "Veja os \"Dados Rolando\" →"
-      },
-      {
-        "titulo": "Site/blog em WordPress",
-        "descricao": "Criei um blog pessoal para explorar e aprender o uso da plataforma. O servidor é simples e afeta muito o desempenho, porém o projeto foi essencial para entender a estrutura do WordPress.",
-        "link": "https://transformaçãoti.com.br",
-        "textoLink": "Acessar Site/Blog →"
-      }
-    ]
+  "titulo_secao": "Projetos em Destaque",
+  "botoes": {
+    "ver_detalhes": "+ Ver detalhes",
+    "ocultar_detalhes": "Ocultar detalhes",
+    "ver_codigo": "Ver código"    
   },
+  "items": [
+    {
+      "id": "saojose-transparente",
+      "titulo": "São José Transparente — Gastos Públicos",
+      "descricao": "Aplicação web que transforma dados reais de despesas municipais em informações mais claras e fáceis de entender.",
+      "detalhes": "Projeto de ponta a ponta: tratei e organizei os dados públicos da PMSJ com Python e Pandas e desenvolvi a interface em React, com filtros, indicadores e visualizações para facilitar a leitura dos gastos.",
+      "techs": ["Python", "Pandas", "React", "Tailwind CSS"],
+      "link": "https://saojose-transparente-psi.vercel.app/",
+      "textoLink": "Acessar aplicação",
+      "linkGithub": "https://github.com/ClauSalomoni/saojose-transparente"
+    },
+    {
+      "id": "pmsj-powerbi",
+      "titulo": "Análise Orçamentária — São José",
+      "descricao": "Dashboard em Power BI para explorar despesas públicas e indicadores fiscais de São José (SC).",
+      "detalhes": "Trabalhei com dados reais do Portal da Transparência, realizando a preparação no Power Query, a modelagem dos dados e a criação de medidas DAX para gerar indicadores financeiros.",
+      "techs": ["Power BI", "Power Query", "DAX", "Modelagem de Dados"],
+      "link": "https://app.powerbi.com/view?r=eyJrIjoiOTU3ZTQzMGItYTk2My00MTNmLWI5MTItNzVjOGUwMzMwZWMxIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9&pageName=19ee643d11054688c364",
+      "textoLink": "Ver dashboard"
+    },
+    {
+      "id": "pyladies-floripa",
+      "titulo": "Site PyLadies Floripa — Open Source",
+      "descricao": "Site institucional desenvolvido em colaboração com a comunidade PyLadies Floripa.",
+      "detalhes": "Contribuí para a evolução do projeto com componentes React, melhorias de acessibilidade e desempenho em dispositivos móveis e substituição de imagens genéricas por conteúdo real.",
+      "techs": ["React", "HTML", "CSS", "Git/GitHub"],
+      "link": "https://clausalomoni.github.io/site-pyladies-floripa/",
+      "textoLink": "Ver site",
+      "linkGithub": "https://github.com/pyladies-floripa-site/pyladies-floripa-website"
+    },
+    
+    {
+      "id": "jogo-da-bomba",
+      "titulo": "Desarme a Bomba — Jogo Web",
+      "descricao": "Jogo de lógica desenvolvido para praticar integração entre JavaScript e uma API em Python.",
+      "detalhes": "Projeto full-stack desenvolvido para praticar rotas com Flask, comunicação entre front-end e back-end, manipulação do DOM e controle de estado.",
+      "techs": ["JavaScript", "Python", "Flask", "HTML/CSS"],
+      "link": "https://desarme-bomba-flask.onrender.com",
+      "textoLink": "Jogar online",
+      "linkGithub": "https://github.com/ClauSalomoni/desarme-bomba-flask"
+    },
+    {
+      "id": "mentoria-sa",
+      "titulo": "MentorIA — plataforma de estudos",
+      "descricao": "Plataforma acadêmica de aprendizagem personalizada, com IA, cursos, trilhas e acompanhamento do progresso.",
+      "detalhes": "Aplicação full-stack desenvolvida com autenticação de usuários, controle de acesso por perfil, gerenciamento de cursos e aulas, reprodução de vídeos, trilhas de aprendizagem e integração com recursos de IA. O projeto utiliza arquitetura separando frontend, API e banco de dados, com deploy do frontend na Vercel, backend no Render e PostgreSQL no Neon.",
+      "techs": ["React", "Node.js", "Express", "PostgreSQL", "Sequelize"],
+      "link": "https://mentoria-sa.vercel.app/",
+      "textoLink": "Acesse a Plataforma",
+      "linkGithub": "https://github.com/ClauSalomoni/mentoria-sa"
+    },
+    {
+      "id": "wordpress-blog",
+      "titulo": "Blog & Site— WordPress",
+      "descricao": "Projeto de criação e organização de conteúdo com foco em CMS, estrutura do site e SEO.",
+      "detalhes": "Projeto prático para explorar a estrutura de um CMS, organização de conteúdo, plugins, desempenho e boas práticas para publicação na web.",
+      "techs": ["WordPress", "CMS", "SEO", "Web Performance"],
+      "link": "https://transformaçãoti.com.br",
+      "textoLink": "Acessar portal"
+    }
+  ]
+},
+    
+  
   "evolucao": {
     "frase_destaque": "“Troquei o medo da mudança pela vontade de evoluir.”",
     "subtitulo": "Minhas Habilidades: O Código e a Experiência",

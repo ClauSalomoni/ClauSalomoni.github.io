@@ -3,13 +3,13 @@ import React from 'react';
 interface ContainerProps {
   children: React.ReactNode;
   className?: string;
-  size?: 'default' | 'small' | 'large';  // 👈 ISSO DEVE EXISTIR!
+  size?: 'default' | 'small' | 'large';  // ISSO DEVE EXISTIR!
 }
 
 export default function Container({ 
   children, 
   className = '',
-  size = 'default'  // 👈 VALOR PADRÃO
+  size = 'default'  
 }: ContainerProps) {
   
   const sizes = {

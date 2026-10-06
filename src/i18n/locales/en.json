@@ -30,78 +30,71 @@
       }
   },
   "projetos": {
-    "titulo_secao": "Projects & Technical Experience",
-    "ver_codigo": "Code",
+    "titulo_secao": "Featured Projects",
+    "botoes": {
+      "ver_detalhes": "+ View details",
+      "ocultar_detalhes": "Hide details",
+      "ver_codigo": "View code"
+    
+  },
     "items": [
       {
-        "titulo": "Municipal Expenditures Dashboard — React & Python",
-        "descricao": "An interactive web application showcasing an end-to-end data pipeline. Features a data processing and ETL backend built with Python (Pandas/NumPy) to clean and model 4 years of municipal public expenditures. React/Tailwind frontend for interactive charts and financial KPIs.",
+        "id": "saojose-transparente",
+        "titulo": "São José — Public Spending",
+        "descricao": "Web application that turns real municipal spending data into clearer, easier-to-explore information.",
+        "detalhes": "End-to-end project: I processed and organized public data from PMSJ with Python and Pandas, then built the interface in React with filters, key indicators, and visualizations to make public spending easier to understand.",
+        "techs": ["Python", "Pandas", "React", "Tailwind CSS"],
         "link": "https://saojose-transparente-psi.vercel.app/",
-        "textoLink": "View Live Application →",
+        "textoLink": "Open application",
         "linkGithub": "https://github.com/ClauSalomoni/saojose-transparente"
       },
-
       {
-        "titulo": "Public Spending Analysis — São José City Hall (SC)",
-        "descricao": "Analytical dashboard developed using real public transparency data from São José City Hall (SC), Brazil. The project uses Power BI to transform raw government data into visual insights about budget execution, payments, committed expenses, and public spending distribution.",
+        "id": "pmsj-powerbi",
+        "titulo": "Budget Analysis — São José",
+        "descricao": "Power BI dashboard for exploring revenue, spending, and fiscal indicators from São José, Brazil.",
+        "detalhes": "I worked with real data from the Transparency Portal, preparing it in Power Query, modeling the data, and creating DAX measures to build financial indicators.",
+        "techs": ["Power BI", "Power Query", "DAX", "Data Modeling"],
         "link": "https://app.powerbi.com/view?r=eyJrIjoiOTU3ZTQzMGItYTk2My00MTNmLWI5MTItNzVjOGUwMzMwZWMxIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9&pageName=19ee643d11054688c364",
-        "textoLink": "Explore Public Dashboard →"
+        "textoLink": "View dashboard"
       },
       {
-        "titulo": "Marketing Report PBI",
-        "descricao": "Marketing Report developed for a fictional company, using Power BI to transform raw data into Marketing insights. The focus is on creating performance KPIs and data storytelling to support decision-making.",
-        "link": "https://app.powerbi.com/view?r=eyJrIjoiMTNlZGU5MDgtOTU2ZS00ZGU4LWFmMjYtNDM3YzFkNWM3MGZiIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
-        "textoLink": "View Live Dashboard →"
-      },
-      {
-        "titulo": "Logistics Performance Dashboard PBI",
-        "descricao": "Dashboard with an overview of some logistics KPIs, allowing monitoring by carrier.",
-        "link": "https://app.powerbi.com/view?r=eyJrIjoiYTI3MWI0MDYtZmVjZS00NjI2LWI2YjAtNGYyOGFiNDg2Yzc2IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
-        "textoLink": "Monitor data →"
-      },
-      {
-        "titulo": "Sales Performance PBI",
-        "descricao": "Multi-page dashboard developed for the Commercial area. It presents a detailed analysis of sales from fictional stores.",
-        "link": "https://app.powerbi.com/view?r=eyJrIjoiYTkyZGFkZjYtNWYyMC00OWNkLThhN2MtZTBiNTA5ZmRmOGUwIiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
-        "textoLink": "Explore Dashboard →"
-      },
-      {
-        "titulo": "Global Sales Analysis PBI",
-        "descricao": "Single-page report showing a summary of sales from fictional companies around the world, with some KPIs and charts.",
-        "link": "https://app.powerbi.com/view?r=eyJrIjoiMGI1MTRhY2EtYTkzMy00YTQ0LWI1NmMtNjNmYjEwMzBjM2E4IiwidCI6IjJjZjdkNGQ1LWJkMWItNDk1Ni1hY2Y4LTI5OTUzOTliMjE2OCJ9",
-        "textoLink": "Sales Summary →"
-      },
-      {
-        "titulo": "Bomb Game",
-        "descricao": "An interactive game to test reasoning and logic, developed with JavaScript, HTML, CSS and Flask, hosted on Render.",
-        "link": "https://desarme-bomba-flask.onrender.com",
-        "textoLink": "Play Demo →",
-        "linkGithub": "https://desarme-bomba-flask.onrender.com/"
-      },
-      {
-        "titulo": "My Github",
-        "descricao": "Currently, I'm focused on web development with JavaScript, HTML, CSS and exploring back-end with Flask and Node.js.",
-        "link": "https://github.com/ClauSalomoni",
-        "textoLink": "View Profile →"
-      },
-      {
-        "titulo": "Community Collaboration",
-        "descricao": "Contributing with refactoring and responsiveness adjustments, creating reusable components. Replacing AI images with real photos. My first hands-on experience collaborating with a tech community.",
+        "id": "pyladies-floripa",
+        "titulo": "PyLadies Floripa Website — Open Source",
+        "descricao": "Institutional website developed in collaboration with the PyLadies Floripa community.",
+        "detalhes": "I contributed React components, accessibility and mobile performance improvements, and replaced generic images with real project content.",
+        "techs": ["React", "HTML", "CSS", "Git/GitHub"],
         "link": "https://clausalomoni.github.io/site-pyladies-floripa/",
-        "textoLink": "PyLadies Floripa - Website Demo →",
+        "textoLink": "View website",
         "linkGithub": "https://github.com/pyladies-floripa-site/pyladies-floripa-website"
       },
       {
-        "titulo": "Interactive Dashboard",
-        "descricao": "Developed during Alura's data immersion, this web application features dynamic charts and interactive filters, making data analysis and visualization accessible and intuitive.",
-        "link": "https://salarydash.streamlit.app/",
-        "textoLink": "Explore Data →"
+        "id": "jogo-da-bomba",
+        "titulo": "Defuse the Bomb — Web Game",
+        "descricao": "Logic game built to practice integrating JavaScript with a Python API.",
+        "detalhes": "Full-stack project built to practice Flask routes, front-end and back-end communication, DOM manipulation, and state management.",
+        "techs": ["JavaScript", "Python", "Flask", "HTML/CSS"],
+        "link": "https://desarme-bomba-flask.onrender.com",
+        "textoLink": "Play online",
+        "linkGithub": "https://github.com/ClauSalomoni/desarme-bomba-flask"
       },
       {
-        "titulo": "WordPress Site/Blog",
-        "descricao": "I created a personal blog to explore and learn how to use the platform. The server is simple and greatly affects performance, but the project was essential to understand WordPress structure.",
+        "id": "mentoria-sa",
+        "titulo": "MentorIA — Learning Platform",
+        "descricao": "Personalized academic learning platform with AI, courses, learning paths, and progress tracking.",
+        "detalhes": "Full-stack application featuring user authentication, role-based access control, course and lesson management, video playback, learning paths, and AI integration. The project uses a separate frontend, API, and database architecture, with the frontend deployed on Vercel, the backend on Render, and PostgreSQL on Neon.",
+        "techs": ["React", "Node.js", "Express", "PostgreSQL", "Sequelize"],
+        "link": "https://mentoria-sa.vercel.app/cadastro",
+        "textoLink": "Access the Platform",
+        "linkGithub": "https://github.com/ClauSalomoni/mentoria-sa"
+      },
+      {
+        "id": "wordpress-blog",
+        "titulo": "Blog & Site — WordPress",
+        "descricao": "Content-focused website project exploring CMS structure, organization, and SEO.",
+        "detalhes": "Practical project focused on exploring CMS structure, content organization, plugins, performance, and good practices for web publishing.",
+        "techs": ["WordPress", "CMS", "SEO", "Web Performance"],
         "link": "https://transformaçãoti.com.br",
-        "textoLink": "Access Site/Blog →"
+        "textoLink": "Open website"
       }
     ]
   },

@@ -12,23 +12,27 @@
     
   },
   "hero": {
-    "title": "Transformando Ideias em código",
-    "description": "Sua próxima grande ideia precisa de alguém com compromisso e dedicação. Olá, sou a Claudia, desenvolvedora em transição, focada em criar soluções com responsabilidade, análise de dados e storytelling.",
+    "title": "Nova no código Experiente na vida",
+    "description": "Aprendendo a transformar experiência, curiosidade e tecnologias em soluções que fazem sentido.",
     "btn_projetos": "Veja meus projetos",
     "btn_relaxar": "Precisando Relaxar?"
   },
   "sobre": {
-    "title": "Sobre mim",
-    "paragraph1": "Sou gaúcha e escolhi Florianópolis como residência quando passei no vestibular da UFSC em 2001 para o curso de Educação Física, Licenciatura. Lecionei em algumas escolas públicas onde rapidamente percebi que não seria possível lecionar da forma que acreditava ser o ideal. Passei então a unir os conhecimentos de Licenciatura com os da língua Inglesa e passei alguns anos ministrando aulas de Inglês.",
-    "paragraph2": "Ao perceber que minha paixão pela gastronomia foi crescendo fiz um curso de tecnólogo em gastronomia no IFSC. Fiz alguns estágios em restaurantes e passei a trabalhar como autônoma. Recentemente atuar nesta área tem se tornado fisicamente extenuante.",
-    "paragraph3": "Eis que decidi trocar a gastronomia e a cozinha por uma profissão mais tranquila, fisicamente pelo menos. Pensando em minhas 'soft skills', levando em conta as minhas formações, iniciei uma pesquisa para ver em qual área profissional eu poderia atuar de forma a atender o que busco nesta fase da vida. Seja falando com amigos e conhecidos, seja pesquisando na internet, descobri que todos os caminhos levam à Tecnologia da Informação.",
-    "paragraph4": "Depois de decidir trocar de área e mergulhar no universo da tecnologia percebi que a transição vai muito além de aprender a programar. Ela envolve desafios, dúvidas, conquistas e, claro, muitos debugs na vida real. Atualmente estou cursando Técnico em Desenvolvimento de Sistemas pelo Senai.",
-    "paragraph5": "Procuro evoluir e testar meus conhecimentos na prática enquanto continuo explorando diferentes caminhos deste incrível mundo da tecnologia. É com orgulho que digo que este site foi todo desenvolvido por mim, assim como todos os projetos linkado abaixo. Espero que goste dos projetos que estão aqui e aguardo seu contato.",
-    "paragraph6": "Busco contribuir com soluções reais e crescer em equipe, sempre com dedicação e responsabilidade.",
+    "title": "Quem sou hoje",
+    "paragraph1": "Eu sou a Claudia e sim, sou mais uma em transição de carreira para a tecnologia. Mas também sou única como você. Confira um pouco da minha trajetória para entender como posso ser a pessoa ideal para compor o seu time.",
+    
+    "paragraph2": "Trabalhei por anos na educação e na área de gastronomia. Embora sejam áreas bem distintas, me ensinaram muito sobre pessoas, comunicação clara, organização e agir sob pressão. Agora estou construindo minha carreira em tecnologia, transformando as minhas experiências, curiosidade e pensamento crítico em soluções que fazem sentido para as pessoas e negócios.",
+
+    "paragraph3": "Hoje curso Desenvolvimento de Sistemas no SENAI, além de buscar conhecimentos online e com as pessoas das comunidades que faço parte. Estou sempre testando e aplicando estes conhecimentos em projetos práticos que você pode acompanhar neste portfólio.",
+    
+    "paragraph4": "A idéia é expandir meu repertório para usar ferramentas que construam soluções funcionais para algum problema real. A transição não tem sido tranquila e tudo bem. Tem desafios, descobertas e muitos bugs no caminho. Isso vem me fortalecendo ainda mais. Espero que eu tenha conseguido transmitir um pouco da minha essência de forma objetiva.",
+
+    "paragraph5":"Procuro por uma oportunidade em TI para mostrar como a minha maturidade e visão de usuário pode enriquecer a equipe. Quero continuar ampliando meu repertório e conhecimentos com responsabilidade técnica. Se chegou até aqui, espero que goste dos projetos e que tenhamos uma boa razão para conversar.",
+
     "buttons": {
-       "continuar_lendo": "Continuar lendo",
-       "mostrar_menos": "Mostrar menos"
-     }
+      "continuar_lendo": "Continuar lendo",
+      "mostrar_menos": "Mostrar menos"
+    }
   },
   "projetos": {
   "titulo_secao": "Projetos em Destaque",
@@ -80,7 +84,7 @@
     },
     {
       "id": "mentoria-sa",
-      "titulo": "MentorIA — plataforma de estudos",
+      "titulo": "MentorIA — Plataforma de Estudos",
       "descricao": "Plataforma acadêmica de aprendizagem personalizada, com IA, cursos, trilhas e acompanhamento do progresso.",
       "detalhes": "Aplicação full-stack desenvolvida com autenticação de usuários, controle de acesso por perfil, gerenciamento de cursos e aulas, reprodução de vídeos, trilhas de aprendizagem e integração com recursos de IA. O projeto utiliza arquitetura separando frontend, API e banco de dados, com deploy do frontend na Vercel, backend no Render e PostgreSQL no Neon.",
       "techs": ["React", "Node.js", "Express", "PostgreSQL", "Sequelize"],
@@ -102,54 +106,62 @@
     
   
   "evolucao": {
-    "frase_destaque": "“Troquei o medo da mudança pela vontade de evoluir.”",
-    "subtitulo": "Minhas Habilidades: O Código e a Experiência",
+    "frase_destaque": "Troquei o medo da mudança pela vontade de evoluir",
+    "subtitulo": "Tecnologia com repertório para resolver problemas.",
+
     "technical": {
-      "title": "Habilidades Técnicas:",
+      "title": "Tecnologias",
       "items": [
         {
+          "category": "Linguagens:",
+          "skills": "JavaScript, Python, SQL"
+        },
+        {
           "category": "Frontend:",
-          "skills": "HTML, CSS, JavaScript, React, React Native, Tailwind."
+          "skills": "React, React Native, Tailwind CSS, HTML, CSS"
         },
         {
           "category": "Backend:",
-          "skills": "Python, Flask, JavaScript, Fastify."
+          "skills": "Node.js, Express, Flask, Fastify, Sequelize"
         },
         {
-          "category": "Análise de Dados:",
-          "skills": "SQL, Power BI."
+          "category": "Dados & BI:",
+          "skills": "PostgreSQL, Power BI, Supabase"
         },
         {
-          "category": "Ferramentas e Plataformas:",
-          "skills": "Git, GitHub, npm, Render, PostgreSQL, Supabase."
+          "category": "Ferramentas & Testes:",
+          "skills": "Git, GitHub, Docker, Jest, Vite"
         }
       ]
     },
-    "comportamentais": {
-      "title": "Habilidades Comportamentais:",
-      "items": [
-        {
-          "category": "Adaptabilidade:",
-          "description": "Experiência de morar e trabalhar nos EUA e na Itália me preparou para me adaptar a novos ambientes e desafios de forma rápida e eficaz."
-        },
-        {
-          "category": "Resolução de Problemas:",
-          "description": "Como Chef, aprendi a resolver problemas sob pressão, com foco em eficiência e atenção aos detalhes."
-        },
-        {
-          "category": "Comunicação:",
-          "description": "A experiência como professora de inglês me ensinou a transmitir ideias complexas de forma simples e clara, uma habilidade essencial para o trabalho em equipe."
-        },
-        {
-          "category": "Criatividade:",
-          "description": "O curso de gastronomia e a vivência em diferentes culturas me deram uma perspectiva única para pensar fora da caixa e encontrar soluções inovadoras."
-        }
-      ]
-    },
-    "chamada": "Se quiser saber mais ou tiver uma vaga que combine comigo:",
-    "botao_whatsapp": "WhatsApp",
-    "botao_linkedin": "LinkedIn"
+
+  "comportamentais": {
+    "title": "Atitudes",
+    "items": [
+      {
+        "category": "Versatilidade:",
+        "description": "Bagagem internacional e capacidade para me integrar, aprender e somar em qualquer time."
+      },
+      {
+        "category": "Resolução de problemas:",
+        "description": "Pensamento prático, atenção aos detalhes e capacidade de agir sob pressão."
+      },
+      {
+        "category": "Comunicação & Idiomas:",
+        "description": "Inglês fluente e facilidade para transformar ideias complexas em comunicação clara."
+      },
+      {
+        "category": "Responsabilidade:",
+        "description": "Compromisso com o que assumo, do início ao fim."
+      }
+    ]
   },
+
+  "chamada": "Faz sentido para você? Vamos conversar.",
+  "botao_whatsapp": "WhatsApp",
+  "botao_linkedin": "LinkedIn"
+},
+     
   "surpresas": {
     "frase1": "Você é mais forte do que imagina e mais incrível do que acredita.",
     "frase2": "Respire fundo. Tudo vai se resolver.",

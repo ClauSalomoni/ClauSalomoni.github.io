@@ -14,12 +14,12 @@ export default function Hero({ onMostrarSurpresa }: HeroProps) {
   const { t } = useTranslation();
 
   return (
-    <section className="py-12 sm:py-16 md:py-24">
+    <section className="py-8 sm:py-10 md:py-14">
       <Container>
         <div className="flex flex-col md:flex-row-reverse items-center justify-center gap-6 sm:gap-8 lg:gap-12">
           
           {/* IMAGEM */}
-          <div className="hero-image w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 group">
+          <div className="hero-image w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 group">
             <img
               src={minhaFoto}
               alt="Foto de Claudia"

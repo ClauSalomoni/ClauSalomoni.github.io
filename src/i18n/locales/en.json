@@ -10,20 +10,23 @@
     "email": "Email",
     "linkedin": "LinkedIn"   
   },
-  "hero": {
-    "title": "Turning Ideas into Code",
-    "description": "Your next big idea deserves commitment and dedication. Hi, I'm Claudia, a career-transition developer focused on building solutions through responsibility, data analysis, and storytelling.",
-    "btn_projetos": "Explore my projects",
-    "btn_relaxar": "Need a Break?"
+ "hero": {
+    "title": "New to code Experienced in life",
+    "description": "Learning how to turn past experience, curiosity, and modern tech into solutions that actually make sense.",
+    "btn_projetos": "View my projects",
+    "btn_relaxar": "Need a break?"
   },
   "sobre": {
-    "title": "About me",
-    "paragraph1": "I was born in Rio Grande do Sul and chose Florianópolis as my home when I was accepted into the Federal University of Santa Catarina (UFSC) in 2001, where I earned a degree in Physical Education (Teaching Licensure). I taught in a couple of public schools, where I quickly realized that the educational system did not always allow me to teach in the way I believed was most effective. This led me to combine my teaching background with my English skills, and I spent several years working as an English instructor.",
-    "paragraph2": "As my passion for gastronomy grew, I pursued a technical degree in Culinary School at IFSC. After completing internships in restaurants, I began working independently in the field. Over time, however, I found that working in gastronomy had become physically too demanding.",
-    "paragraph3": "At that point, I decided to transition into a profession that would be more sustainable in the long term. Reflecting on my soft skills and educational background, I researched career paths that aligned with my strengths and professional goals. Through conversations and research, I discovered that many paths were leading toward Information Technology.",
-    "paragraph4": "After deciding to transition into technology, I realized that this journey involves much more than learning how to code. It requires resilience, continuous learning, problem-solving, and navigating real-world challenges — with plenty of debugging along the way. I am currently pursuing a Technical Degree in Systems Development at SENAI.",
-    "paragraph5": "I am committed to continuously improving my skills and applying my knowledge in practical projects while exploring the many possibilities within the technology field. I am proud to say that this website was fully designed and developed by me, as well as the projects that follow. I hope you enjoy exploring my projects, and I look forward to connecting with you.",
-    "paragraph6": "I am seeking opportunities to contribute to meaningful solutions and grow as part of a collaborative team, always with dedication and responsibility.",
+    "title": "Who I am today",
+    "paragraph1": "I'm Claudia and yes, I am another career changer pivoting into tech. But just like anyone with a real story, my background is uniquely mine. Here is a bit of my trajectory so you can see how I can add real value to your team.",
+    
+    "paragraph2": "I spent years working in education and gastronomy. While vastly different, these fields taught me everything about people, clear communication, organization, and acting under pressure. Now, I'm building my career in technology, translating my background, curiosity, and critical thinking into solutions that make sense for both users and businesses.",
+
+    "paragraph3": "Currently studying Systems Development at SENAI, I also learn continuously through online courses and tech communities. I'm always testing and applying this knowledge in practical, hands-on projects that you can explore in this portfolio.",
+
+    "paragraph4": "My goal is to keep expanding my skill set to build functional solutions for real-world problems. The transition hasn't been a walk in the park—and that's completely fine. It comes with challenges, discoveries, and plenty of bugs along the way, all of which only make me stronger. I hope I've managed to share a bit of who I am in a clear and direct way.",
+
+    "paragraph5": "I'm looking for an entry-level tech role where my maturity and user-first perspective can enrich the team. I want to keep growing my technical toolkit with accountability and drive. If you made it this far, I hope you enjoy the projects and that we find a great reason to connect.",
     "buttons": {
         "continuar_lendo": "Continue reading",
         "mostrar_menos": "Show less"
@@ -99,26 +102,30 @@
     ]
   },
   "evolucao": {
-    "frase_destaque": "“I replaced the fear of change with the desire to grow.”",
-    "subtitulo": "My Skills: Code and Experience",
+    "frase_destaque": "I replaced the fear of change with the desire to grow",
+    "subtitulo": "Technology backed by experience and a problem-solving mindset.",
     "technical": {
-      "title": "Technical Skills:",
+      "title": "Technologies",
       "items": [
         {
+        "category": "Languages:",
+        "skills": "JavaScript, Python, SQL"
+        },
+        {
           "category": "Frontend:",
-          "skills": "HTML, CSS, JavaScript, React, React Native, Tailwind."
+          "skills": "React, React Native, Tailwind CSS, HTML, CSS"
         },
         {
           "category": "Backend:",
-          "skills": "Python, Flask, JavaScript, Fastify."
+          "skills": "Node.js, Express, Flask, Fastify, Sequelize"
         },
         {
           "category": "Data & Analytics:",
-          "skills": "SQL, Power BI."
+          "skills": "PostgreSQL, Power BI, Supabase"
         },
         {
-          "category": "Tools & Platforms:",
-          "skills": "Git, GitHub, npm, Render, PostgreSQL, Supabase."
+          "category": "Tools & Test:",
+          "skills": "Git, GitHub, Docker, Jest, Vite"
         }
       ]
     },
@@ -126,24 +133,24 @@
       "title": "Soft Skills:",
       "items": [
         {
-          "category": "Adaptability:",
-          "description": "Living and working in the USA and Italy has prepared me to quickly and effectively adapt to new environments and challenges ."
+          "category": "Versatility:",
+          "description": "International background with the ability to integrate, learn, and add value to any team."
         },
         {
           "category": "Problem Solving:",
-          "description": "As a Chef, I learned to solve problems under pressure,  maintaining efficiency and strong attention to detail."
+          "description": "Practical mindset, attention to detail, and ability to take action under pressure."
         },
         {
-          "category": "Communication:",
-          "description": "My experience as an English teacher taught me how to convey complex ideas in a clear and simple way, an essential skill for teamwork."
+          "category": "Communication & Languages:",
+          "description": "Fluent English and a knack for turning complex ideas into clear communication."
         },
         {
-          "category": "Creativity:",
-          "description": "My background in gastronomy and exposure to different cultures have given me a unique perspective to think outside the box and develop innovative solutions."
+          "category": "Accountability:",
+          "description": "Full ownership of my commitments, from start to finish."
         }
       ]
     },
-    "chamada": "If you'd like to learn more or have an opportunity that matches my profile:",
+    "chamada": "Does this make sense to you? Let's chat.",
     "botao_whatsapp": "WhatsApp",
     "botao_linkedin": "LinkedIn"
   },

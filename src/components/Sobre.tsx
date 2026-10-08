@@ -14,7 +14,7 @@ export default function Sobre() {
   const [expandido, setExpandido] = useState(false);
   const tituloRef = useRef<HTMLHeadingElement>(null);
 
-  const paragrafos = [1, 2, 3, 4, 5, 6];
+  const paragrafos = [1, 2, 3, 4, 5];
   const paragrafosIniciais = 1;
 
   const handleToggle = () => {

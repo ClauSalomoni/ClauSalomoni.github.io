@@ -40,10 +40,10 @@ export default function Header() {
           
           {/* Logo e CVs */}
           <div className="flex items-center gap-2 sm:gap-4 min-w-0">
-            <a href="/" className="text-lg sm:text-xl tracking-tight truncate logo-gradient">
+            <span className="text-lg sm:text-xl tracking-tight truncate logo-gradient">
               <span className="sm:hidden">Claudia</span>
               <span className="hidden sm:inline">Claudia Salomoni</span>
-            </a>
+            </span>
 
             {/* CV PDF - Desktop */}
             <a
